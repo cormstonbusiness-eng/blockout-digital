@@ -245,7 +245,8 @@ export default function Services() {
 
       <style>{`
         .svc{ display:grid; grid-template-columns:1fr 1fr; gap:54px; align-items:center; }
-        @media (max-width:780px){ .svc{ grid-template-columns:1fr; } }
+        @media (max-width:780px){ .svc{ grid-template-columns:1fr; gap: 40px; } }
+        @media (max-width:640px){ .svc{ gap: 28px; } }
       `}</style>
     </>
   );

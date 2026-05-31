@@ -405,6 +405,11 @@ body.cursor-on a, body.cursor-on button{ cursor:none; }
   .card{ padding:20px; }
   .cursor-dot,.cursor-ring{ display:none; }
 
+  /* Navigation optimizations */
+  .nav__logo img{ height:26px; }
+  .nav__burger{ width:40px; height:40px; }
+  .nav__burger span{ width:18px; height:2.4px; }
+
   /* Mobile-specific optimizations */
   .btn{ padding:0.7em 1.2em; font-size:0.95rem; }
   .btn--lg{ padding:0.8em 1.4em; font-size:1rem; }

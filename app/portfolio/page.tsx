@@ -90,8 +90,9 @@ export default function Portfolio() {
         .work__img{ transition:transform .25s var(--ease-bounce), box-shadow .25s var(--ease-bounce); }
         .work:hover .work__img{ transform:translate(-4px,-4px); box-shadow:var(--shadow-pop-lg); }
         .work__meta{ display:flex; justify-content:space-between; align-items:center; gap:10px; margin-top:14px; }
-        @media (max-width:900px){ .work-grid{ grid-template-columns:repeat(2,1fr); } }
-        @media (max-width:560px){ .work-grid{ grid-template-columns:1fr; } }
+        @media (max-width:900px){ .work-grid{ grid-template-columns:repeat(2,1fr); gap: 24px; } }
+        @media (max-width:560px){ .work-grid{ grid-template-columns:1fr; gap: 16px; } }
+        @media (max-width:640px){ .work__meta{ flex-wrap:wrap; } }
       `}</style>
     </>
   );
