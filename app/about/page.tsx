@@ -72,12 +72,6 @@ export default function About() {
             </div>
           </div>
 
-          <div style={{ marginTop: "48px", padding: "36px", background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", boxShadow: "var(--shadow-pop)" }} className="reveal" data-d="1">
-            <h3 className="h-md" style={{ margin: "0 0 16px" }}>The reality</h3>
-            <p style={{ margin: 0, color: "var(--ink-soft)", lineHeight: "1.7" }}>
-              11 years of continuous learning and growth. Three distinct industries – architecture, technical design, and exhibitions. Challenges along the way – layoffs that forced pivots, industry changes that demanded reinvention. But every single experience became a blockout. Every role taught something critical about design, business, and what actually matters. Now, with 11 years across architectural visualization, CAD precision, exhibition design, and self-taught digital strategy, there's finally a complete toolkit. Time to build something extraordinary.
-            </p>
-          </div>
 
           <div style={{ marginTop: "54px", padding: "36px", background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", boxShadow: "var(--shadow-pop)" }} className="reveal" data-d="1">
             <h3 className="h-md" style={{ margin: "0 0 16px" }}>The setbacks</h3>
