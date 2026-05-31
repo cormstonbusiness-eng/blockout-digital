@@ -30,46 +30,53 @@ export default function About() {
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "48px" }}>
             <div className="reveal" data-d="1">
-              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2012 – Newcastle University</h3>
+              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2015 – Architectural Visualization (4 years)</h3>
               <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-                Started with a degree in Computer Games 3D Art. Passion for digital creation, the dream of working in games, and a portfolio full of potential. What I didn't have was a job.
+                Started in the architectural visualization industry. Learning how to think spatially, tell stories through visuals, and deliver photorealistic renders that sell ideas. Every project was a blockout – building the structure before the polish.
               </p>
             </div>
 
             <div className="reveal" data-d="2">
-              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2013 – Architectural Visualization (4 years)</h3>
+              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2016 – Learning Begins</h3>
               <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-                Pivoted to architecture and spent 4 years as a 3D visualizer. Learning how to think spatially, tell stories through visuals, and deliver photorealistic renders. Every project was a blockout – building the structure before the polish.
+                Started teaching myself web design, SEO optimization, and social media marketing in spare time. This wasn't formal education – it was pure curiosity. Building sites, learning algorithms, understanding how to make brands visible online. And I haven't stopped.
               </p>
             </div>
 
             <div className="reveal" data-d="3">
-              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2017 – The Move to Nuneaton</h3>
+              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2018-2021 – Newcastle University</h3>
               <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-                Relocated for a CAD Technician role and spent 2 years mastering technical precision. Learned how to think like an engineer, communicate through technical drawings, and build systems that work.
+                Returned to education while still working in archviz. A Computer Games 3D Art degree gave me formal foundation in digital creation, but by now I was learning more from real-world projects. Bridging theory with practical experience.
               </p>
             </div>
 
             <div className="reveal" data-d="4">
-              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2019 – Exhibitions & Beyond (3 years)</h3>
+              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2021 – CAD Technician (2 years)</h3>
               <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-                Transitioned to the exhibitions industry as a 3D/2D Designer. BeMatrix modular systems, construction drawings, electrical plans, photorealistic 3D renders, and print-ready artwork. This role brought everything together – technical precision meets creative vision.
+                Shifted focus to technical precision. Two years as a CAD Technician taught me how to think like an engineer, communicate through technical drawings, and build systems that actually work in the real world.
               </p>
             </div>
 
             <div className="reveal" data-d="5">
-              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2022 – Learning in Spare Time</h3>
+              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2023 – Exhibitions & Beyond (Present)</h3>
               <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-                Started teaching myself web design, SEO optimization, and social media marketing. Not in a formal setting – just pure curiosity and passion. Building sites, learning algorithms, understanding how to make brands visible online.
+                Transitioned to the exhibitions industry as a 3D/2D Designer. BeMatrix modular systems, construction drawings, electrical plans, photorealistic 3D renders, and print-ready artwork. This role brought everything together – technical precision meets creative vision meets real-world execution.
               </p>
             </div>
 
             <div className="reveal" data-d="6">
-              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2024 – Blockout Digital</h3>
+              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2024 – Return to the North</h3>
               <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-                Every role was a blockout. Every industry taught me something critical. Now, for the first time, I have the skills, experience, and clarity to do what I do best – create bold, strategic work that actually moves the needle for brands.
+                Relocated back to Nuneaton while continuing in exhibitions. A strategic move positioning for what's next. Still learning, still pushing, still building blockouts.
               </p>
             </div>
+          </div>
+
+          <div style={{ marginTop: "48px", padding: "36px", background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", boxShadow: "var(--shadow-pop)" }} className="reveal" data-d="1">
+            <h3 className="h-md" style={{ margin: "0 0 16px" }}>The reality</h3>
+            <p style={{ margin: 0, color: "var(--ink-soft)", lineHeight: "1.7" }}>
+              11 years. Multiple industries. Countless challenges and setbacks – layoffs that forced pivots, industry changes that demanded reinvention, and the constant question of "what's next?" But every single experience became a blockout. Every role taught me something critical about design, business, and how to create work that actually matters. Now, with a decade of hard-won experience across 3D visualization, technical CAD, exhibition design, and self-taught digital strategy, I finally have the complete toolkit to build something extraordinary.
+            </p>
           </div>
 
           <div style={{ marginTop: "54px", padding: "36px", background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", boxShadow: "var(--shadow-pop)" }} className="reveal" data-d="1">
@@ -121,16 +128,16 @@ export default function About() {
           <div className="reveal">
             <span className="eyebrow">Meet Craig</span>
             <h2 className="h-lg" style={{ marginTop: "16px", marginBottom: "24px" }}>
-              11 years of experience. One person. Unlimited capability.
+              11 years. Multiple industries. One vision.
             </h2>
             <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-              Craig Ormston is the founder and sole operator of Blockout Digital. What started as searching for a single path in the games industry evolved into a multifaceted career spanning architecture, CAD design, exhibitions, web development, and digital marketing.
+              Craig Ormston is the founder and sole operator of Blockout Digital. A journey that started in architectural visualization evolved into something much bigger – a multifaceted career spanning 3D visualization, CAD design, exhibition design, and self-taught web development and digital strategy.
             </p>
             <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-              That breadth isn't a weakness – it's the superpower. When you've worked across multiple industries and disciplines, you understand the full picture. You know how to design for reality, not just aesthetics. You understand technical constraints, budget realities, and what actually makes a project succeed.
+              That range isn't a scattered résumé – it's the foundation of everything. When you've designed for architects, engineered with CAD precision, built modular exhibition systems, and taught yourself web strategy from the ground up, you understand the full picture. You know how to design for reality. You understand technical constraints, budget limitations, and what actually gets built.
             </p>
             <p style={{ color: "var(--ink-soft)", lineHeight: "1.7" }}>
-              Every skill Craig has gained – from 3D visualization to CAD precision, from technical documentation to web strategy – lives in every project Blockout takes on. You're not getting a designer. You're getting a full creative partner with a decade of hard-won experience.
+              Every skill – from photorealistic 3D renders to technical construction drawings, from BeMatrix systems to SEO algorithms – is available on every project. You're not hiring a designer. You're partnering with someone who understands the entire process from concept through delivery.
             </p>
           </div>
 
@@ -142,7 +149,7 @@ export default function About() {
               <h3 className="h-md">Craig Ormston</h3>
               <p style={{ color: "var(--orange)", fontWeight: 700, marginBottom: "12px" }}>Founder, Designer & Developer</p>
               <p style={{ color: "var(--ink-soft)", fontSize: "0.95rem", lineHeight: "1.6" }}>
-                3D Art, Architectural Visualization, CAD Design, Exhibition Design, Web Design, SEO & Digital Strategy.
+                Architectural Visualization, CAD Design, Exhibition Design, 3D Rendering, Construction Documentation, Web Design, SEO, Digital Marketing & Full-Stack Strategy.
               </p>
             </div>
           </div>
@@ -154,14 +161,14 @@ export default function About() {
         <div className="wrap center">
           <div className="reveal">
             <span className="eyebrow" style={{ justifyContent: "center" }}>What's next</span>
-            <h2 className="h-lg" style={{ marginTop: "16px", marginBottom: "28px", maxWidth: "20ch" }}>
-              Back to where it started. <span className="text-orange">Newcastle.</span>
+            <h2 className="h-lg" style={{ marginTop: "16px", marginBottom: "28px", maxWidth: "22ch" }}>
+              Coming home. Building bigger. <span className="text-orange">Newcastle.</span>
             </h2>
             <p className="lead" style={{ maxWidth: "65ch", margin: "0 auto", color: "var(--ink-soft)" }}>
-              Blockout Digital is relocating back to Newcastle – the city where Craig was born and where his creative journey began. Currently based in Nuneaton, the move back north is about more than geography. It's about building something locally, investing in a community that shaped him, and proving that bold, strategic design can thrive anywhere.
+              Blockout Digital was founded in 2026 with a clear vision – to bring strategic, bold design thinking back to the North. Currently based in Nuneaton, the plan is to relocate back to Newcastle, the city where it all started. This isn't about leaving – it's about coming home to build something bigger.
             </p>
             <p style={{ maxWidth: "65ch", margin: "28px auto 0", color: "var(--ink-soft)", lineHeight: "1.7", fontSize: "1.05rem" }}>
-              Newcastle has incredible creative talent and ambitious brands. Blockout is here to partner with them – to help local businesses get the design attention and strategic thinking they deserve. Whether you're building something new or ready to level up what you've already created, Blockout Digital is ready to build your blockout.
+              Newcastle has the talent, the ambition, and the creative energy that deserves better design. Blockout is ready to partner with local brands, businesses, and creators who want to stand out. Whether you're launching something new or leveling up what exists, there's a studio ready to build your blockout – and the expertise to make it count.
             </p>
           </div>
         </div>
