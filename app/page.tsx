@@ -97,6 +97,18 @@ export default function Home() {
         </div>
       </div>
 
+      {/* OVERVIEW SECTION */}
+      <section className="section-pad">
+        <div className="wrap center">
+          <p className="lead reveal" style={{ maxWidth: "65ch", margin: "0 auto 32px" }}>
+            Blockout is a full-service design studio based in Nuneaton, Warwickshire. We're a one-man studio led by founder Craig Ormston, specializing in creating bold, strategic design solutions for brands that refuse to blend in. From websites and branding to digital marketing, exhibition design, and 3D visualization, we deliver work that stops people in their tracks.
+          </p>
+          <p className="reveal" data-d="1" style={{ maxWidth: "65ch", margin: "0 auto", fontSize: "1.05rem", lineHeight: "1.7", color: "var(--ink-soft)" }}>
+            We believe in deliberate design – strategic thinking combined with bold execution. Every project we take on receives the full attention and expertise needed to create something unmissable. Whether you're launching a new brand, redesigning your digital presence, or creating something entirely new, we bring a strategic mindset and uncompromising design standards to the table.
+          </p>
+        </div>
+      </section>
+
       {/* INTRO */}
       <section className="section-pad">
         <div className="wrap" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "50px", alignItems: "end" }}>
@@ -111,7 +123,7 @@ export default function Home() {
             <p className="lead">
               We named ourselves after it because we believe the best work is built deliberately:
               structure first, sparkle second. No fluff, no guesswork – just bold ideas that actually
-              stand up.
+              stand up. This philosophy guides everything we do at Blockout Digital.
             </p>
             <Link href="/about" className="link-arrow" style={{ marginTop: "20px" }}>
               Meet the studio →
@@ -260,6 +272,9 @@ export default function Home() {
               </p>
             </Link>
           </div>
+          <p style={{ marginTop: "54px", maxWidth: "70ch", fontSize: "1.05rem", lineHeight: "1.7", color: "var(--ink-soft)" }} className="reveal">
+            Each service is designed to work independently or as part of a complete brand ecosystem. We don't believe in one-size-fits-all solutions. Instead, we take time to understand your vision, your audience, and your goals. Our approach combines creative boldness with strategic thinking, ensuring that every design decision drives real business results. Whether you need a stunning website that converts, a distinctive brand identity, targeted marketing campaigns, an impactful physical space, or photorealistic 3D visualizations, we bring expertise, dedication, and uncompromising standards to every project.
+          </p>
         </div>
       </section>
 
@@ -269,9 +284,12 @@ export default function Home() {
           <span className="eyebrow reveal mx-auto" style={{ justifyContent: "center" }}>
             Why teams pick us
           </span>
-          <h2 className="h-xl reveal mx-auto" data-d="1" style={{ margin: "14px auto 0", maxWidth: "16ch" }}>
+          <h2 className="h-xl reveal mx-auto" data-d="1" style={{ margin: "14px auto 28px", maxWidth: "16ch" }}>
             Big-agency thinking. No big-agency nonsense.
           </h2>
+          <p className="lead reveal" style={{ maxWidth: "65ch", margin: "0 auto" }}>
+            Working with Blockout Digital means partnering with a studio that combines creative excellence with strategic vision. We bring the caliber of thinking you'd expect from a large agency, without the bureaucracy, inflated costs, or diluted attention. Here's what sets us apart.
+          </p>
         </div>
         <div className="wrap grid-3" style={{ marginTop: "54px" }}>
           <div className="card reveal" data-d="1">
@@ -280,7 +298,7 @@ export default function Home() {
               Properly built
             </h3>
             <p>
-              Designers and developers in the same room, so nothing gets lost in the handover.
+              Designers and developers collaborate from day one. This ensures that strategic design decisions translate seamlessly into functional, performance-optimized implementations. Nothing gets lost in translation – we control every layer from concept to launch.
             </p>
           </div>
           <div className="card reveal" data-d="2">
@@ -289,7 +307,7 @@ export default function Home() {
               Boldly different
             </h3>
             <p>
-              We'd rather make you stand out than blend in. Safe is the only thing we won't do.
+              Average work won't cut it. We're committed to creating solutions that break through the noise and make a genuine impact. We question convention, push boundaries, and refuse to settle for work that merely passes. Your brand deserves to stand out.
             </p>
           </div>
           <div className="card reveal" data-d="3">
@@ -298,7 +316,7 @@ export default function Home() {
               One roof
             </h3>
             <p>
-              Web, brand, marketing, exhibitions and 3D – joined-up thinking, zero juggling agencies.
+              All five core services live under one roof. Websites, branding, digital marketing, exhibition design, and 3D visualization work together as an integrated system. This holistic approach means your brand voice stays consistent across every touchpoint, and your message hits harder.
             </p>
           </div>
         </div>
@@ -422,6 +440,10 @@ export default function Home() {
               View all work →
             </Link>
           </div>
+          <p className="lead reveal" style={{ maxWidth: "65ch", marginTop: "32px" }}>
+            Every project in our portfolio represents a commitment to bold thinking and flawless execution. From branding and web design to digital marketing campaigns and immersive exhibition spaces, we've helped brands across industries make their mark. Take a look at some of our recent work to see how we approach design challenges.
+          </p>
+        </div>
           <div className="grid-2" style={{ marginTop: "42px" }}>
             <Link href="/portfolio" className="reveal" data-d="1">
               <div className="placeholder" style={{ aspectRatio: "4/3" }}>
