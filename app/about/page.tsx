@@ -65,9 +65,16 @@ export default function About() {
             </div>
 
             <div className="reveal" data-d="6">
-              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2024 – Return to the North</h3>
+              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2024 – Strategic Relocation</h3>
               <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-                Relocated back to Nuneaton while continuing in exhibitions. A strategic move positioning for what's next. Still learning, still pushing, still building blockouts.
+                Moved to Nuneaton while continuing in the exhibitions industry. A calculated move to position for the next chapter. Still learning, still pushing, building the final blockout before launching Blockout Digital.
+              </p>
+            </div>
+
+            <div className="reveal" data-d="1">
+              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2026 – Blockout Digital Launches</h3>
+              <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
+                After 11 years across multiple industries, the journey comes together. Blockout Digital is formed with a complete toolkit: architectural visualization, CAD precision, exhibition design expertise, web development, and 10 years of self-taught digital strategy. Now beginning the move back to Newcastle.
               </p>
             </div>
           </div>
@@ -156,19 +163,19 @@ export default function About() {
         </div>
       </section>
 
-      {/* FUTURE */}
+      {/* COMING HOME */}
       <section className="section-pad" style={{ background: "var(--paper-warm)", borderTop: "3px solid var(--ink)" }}>
         <div className="wrap center">
           <div className="reveal">
-            <span className="eyebrow" style={{ justifyContent: "center" }}>What's next</span>
-            <h2 className="h-lg" style={{ marginTop: "16px", marginBottom: "28px", maxWidth: "22ch" }}>
-              Coming home. Building bigger. <span className="text-orange">Newcastle.</span>
+            <span className="eyebrow" style={{ justifyContent: "center" }}>Coming home</span>
+            <h2 className="h-lg" style={{ marginTop: "16px", marginBottom: "28px", maxWidth: "20ch" }}>
+              Blockout returns to <span className="text-orange">Newcastle.</span>
             </h2>
             <p className="lead" style={{ maxWidth: "65ch", margin: "0 auto", color: "var(--ink-soft)" }}>
-              Blockout Digital was founded in 2026 with a clear vision – to bring strategic, bold design thinking back to the North. Currently based in Nuneaton, the plan is to relocate back to Newcastle, the city where it all started. This isn't about leaving – it's about coming home to build something bigger.
+              Founded in 2026, Blockout Digital is relocating from Nuneaton back to Newcastle – the city where Craig was born and where this creative journey began. It's not just a geographic move. It's a return to roots with a complete toolkit and 11 years of hard-won expertise.
             </p>
             <p style={{ maxWidth: "65ch", margin: "28px auto 0", color: "var(--ink-soft)", lineHeight: "1.7", fontSize: "1.05rem" }}>
-              Newcastle has the talent, the ambition, and the creative energy that deserves better design. Blockout is ready to partner with local brands, businesses, and creators who want to stand out. Whether you're launching something new or leveling up what exists, there's a studio ready to build your blockout – and the expertise to make it count.
+              Newcastle's creative community deserves design partners who understand both the artistry and the business. Blockout brings architectural visualization expertise, technical precision from CAD and exhibitions, web development skills, and a decade of digital strategy learning. Whether you're building something bold or leveling up what's already working, there's a studio ready to build your blockout – and the experience to make it real.
             </p>
           </div>
         </div>
