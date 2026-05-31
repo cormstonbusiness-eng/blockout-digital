@@ -376,10 +376,72 @@ body.cursor-on a, body.cursor-on button{ cursor:none; }
   .nav__cta{ display:none; }
   .grid-3,.grid-4{ grid-template-columns:repeat(2,1fr); }
 }
+@media (max-width:768px){
+  /* Tablet optimizations */
+  .blob{ display:none; }
+  .marquee{ padding:16px 0; }
+  .marquee__track span{ padding:0 8px; }
+  .marquee__track{ font-size:clamp(1rem,2vw,1.6rem); }
+  .sticker{ display:none; }
+  .section-pad{ padding:clamp(48px,7vw,100px) 0; }
+
+  /* Handle 2-column inline grids */
+  [style*="grid-template-columns: 1fr 1fr"],
+  [style*="grid-template-columns:1fr 1fr"],
+  [style*="grid-template-columns: .85fr 1.15fr"],
+  [style*="grid-template-columns: 1fr 1.15fr"]{
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+  }
+
+  /* Card gap reduction */
+  .card{ gap: 8px; }
+}
+
 @media (max-width:640px){
   body{ font-size:17px; }
   .grid-2,.grid-3,.grid-4{ grid-template-columns:1fr; }
   .footer__top{ grid-template-columns:1fr; }
-  .card{ padding:24px; }
+  .card{ padding:20px; }
   .cursor-dot,.cursor-ring{ display:none; }
+
+  /* Mobile-specific optimizations */
+  .btn{ padding:0.7em 1.2em; font-size:0.95rem; }
+  .btn--lg{ padding:0.8em 1.4em; font-size:1rem; }
+
+  /* Typography adjustments for readability */
+  .h-xl{ font-size:clamp(1.8rem,5vw,4rem); }
+  .h-lg{ font-size:clamp(1.4rem,4vw,3.6rem); }
+  .h-md{ font-size:clamp(1.2rem,3.5vw,2.3rem); }
+
+  /* Form and input adjustments */
+  .field-row{ grid-template-columns:1fr; gap:16px; }
+  .chips{ flex-wrap:wrap; gap:8px; }
+  .svc-chip,.chip{ font-size:0.9rem; padding:0.6em 1em; }
+
+  /* Spacing adjustments */
+  .stack-md{ gap:16px; }
+  .row{ gap:12px; }
+
+  /* Contact grid optimization */
+  .contact-grid{ gap:28px; }
+}
+
+@media (max-width:480px){
+  /* Extra small phone optimizations */
+  .section-pad{ padding:40px 0; }
+  .wrap{ width:94vw; }
+
+  /* Aggressive typography reduction */
+  .display{ font-size:clamp(2rem,8vw,4rem); }
+  .h-hero{ font-size:clamp(2rem,7vw,6rem); }
+
+  /* Marquee text adjustment */
+  .marquee__track{ font-size:clamp(0.85rem,1.5vw,1.4rem); }
+
+  /* Very tight spacing */
+  .section-pad{ padding:32px 0; }
+
+  /* Button text sizing */
+  .btn{ padding:0.65em 1em; font-size:0.9rem; }
 }

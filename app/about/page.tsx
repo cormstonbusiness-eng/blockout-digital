@@ -177,7 +177,13 @@ export default function About() {
       </div>
 
       <style>{`
-        @media (max-width:780px){ section .wrap[style*="grid-template-columns:1fr 1fr"]{ grid-template-columns:1fr !important; } }
+        @media (max-width:780px){
+          section .wrap[style*="grid-template-columns:1fr 1fr"]{ grid-template-columns:1fr !important; }
+        }
+        @media (max-width:640px){
+          .reveal[style*="grid-template-columns: 1fr 1fr"]{ grid-template-columns: 1fr !important; gap: 28px !important; }
+          .placeholder{ width: 100%; max-width: 100%; }
+        }
       `}</style>
     </>
   );

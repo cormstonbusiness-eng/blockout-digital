@@ -266,6 +266,11 @@ export default function Contact() {
         .contact-k{ font-family:var(--display); font-weight:700; font-size:.85rem; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-soft); }
         .contact-line a, .contact-line span{ font-size:1.1rem; font-weight:600; }
         @media (max-width:880px){ .contact-grid{ grid-template-columns:1fr; gap:40px; } }
+        @media (max-width:640px){
+          .contact-ico{ width:44px; height:44px; font-size:1.2rem; }
+          .contact-line a, .contact-line span{ font-size:1rem; }
+          .contact-k{ font-size:.8rem; }
+        }
       `}</style>
     </>
   );
