@@ -24,7 +24,7 @@ export default function About() {
           <div className="reveal">
             <span className="eyebrow">The journey</span>
             <h2 className="h-lg" style={{ marginTop: "16px", marginBottom: "32px" }}>
-              11 years, 5 roles, 1 vision.
+              11 years. 3 industries. 1 vision.
             </h2>
           </div>
 
@@ -58,16 +58,9 @@ export default function About() {
             </div>
 
             <div className="reveal" data-d="5">
-              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2023 – Exhibitions & Beyond (Present)</h3>
+              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2024 – Exhibitions & Beyond (Present)</h3>
               <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-                Transitioned to the exhibitions industry as a 3D/2D Designer. BeMatrix modular systems, construction drawings, electrical plans, photorealistic 3D renders, and print-ready artwork. This role brought everything together – technical precision meets creative vision meets real-world execution.
-              </p>
-            </div>
-
-            <div className="reveal" data-d="6">
-              <h3 className="h-md text-orange" style={{ marginBottom: "12px" }}>2024 – Strategic Relocation</h3>
-              <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-                Moved to Nuneaton while continuing in the exhibitions industry. A calculated move to position for the next chapter. Still learning, still pushing, building the final blockout before launching Blockout Digital.
+                Transitioned to the exhibitions industry as a 3D/2D Designer while relocating to Nuneaton. BeMatrix modular systems, construction drawings, electrical plans, photorealistic 3D renders, and print-ready artwork. This role brought everything together – technical precision meets creative vision meets real-world execution.
               </p>
             </div>
 
@@ -82,7 +75,7 @@ export default function About() {
           <div style={{ marginTop: "48px", padding: "36px", background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", boxShadow: "var(--shadow-pop)" }} className="reveal" data-d="1">
             <h3 className="h-md" style={{ margin: "0 0 16px" }}>The reality</h3>
             <p style={{ margin: 0, color: "var(--ink-soft)", lineHeight: "1.7" }}>
-              11 years. Multiple industries. Countless challenges and setbacks – layoffs that forced pivots, industry changes that demanded reinvention, and the constant question of "what's next?" But every single experience became a blockout. Every role taught me something critical about design, business, and how to create work that actually matters. Now, with a decade of hard-won experience across 3D visualization, technical CAD, exhibition design, and self-taught digital strategy, I finally have the complete toolkit to build something extraordinary.
+              11 years of continuous learning and growth. Three distinct industries – architecture, technical design, and exhibitions. Challenges along the way – layoffs that forced pivots, industry changes that demanded reinvention. But every single experience became a blockout. Every role taught something critical about design, business, and what actually matters. Now, with 11 years across architectural visualization, CAD precision, exhibition design, and self-taught digital strategy, there's finally a complete toolkit. Time to build something extraordinary.
             </p>
           </div>
 
