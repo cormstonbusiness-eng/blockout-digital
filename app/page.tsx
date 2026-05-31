@@ -172,6 +172,10 @@ export default function Home() {
             </Link>
           </div>
 
+          <p className="lead reveal" style={{ maxWidth: "65ch", marginTop: "32px", color: "var(--ink-soft)" }}>
+            Each of our core services works independently or together as part of a complete brand ecosystem. We don't believe in one-size-fits-all solutions – we take time to understand your vision and goals.
+          </p>
+
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "28px", marginTop: "48px" }}>
             <Link
               href="/services"
@@ -288,9 +292,13 @@ export default function Home() {
               </p>
             </Link>
           </div>
-          <p style={{ marginTop: "54px", maxWidth: "70ch", fontSize: "1.05rem", lineHeight: "1.7", color: "var(--ink-soft)" }} className="reveal">
-            Each service is designed to work independently or as part of a complete brand ecosystem. We don't believe in one-size-fits-all solutions. Instead, we take time to understand your vision, your audience, and your goals. Our approach combines creative boldness with strategic thinking, ensuring that every design decision drives real business results. Whether you need a stunning website that converts, a distinctive brand identity, targeted marketing campaigns, an impactful physical space, or photorealistic 3D visualizations, we bring expertise, dedication, and uncompromising standards to every project.
-          </p>
+
+          <div style={{ marginTop: "54px", padding: "36px", background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", boxShadow: "var(--shadow-pop)" }} className="reveal" data-d="1">
+            <h3 className="h-md" style={{ margin: "0 0 16px" }}>Our approach</h3>
+            <p style={{ margin: 0, fontSize: "1.05rem", lineHeight: "1.7", color: "var(--ink-soft)" }}>
+              Our approach combines creative boldness with strategic thinking. Every design decision is made with intention and purpose, ensuring that your investment drives real business results. Whether you need a stunning website that converts, a distinctive brand identity, targeted marketing campaigns, an impactful physical space, or photorealistic 3D visualizations – we bring expertise, dedication, and uncompromising standards to every project.
+            </p>
+          </div>
         </div>
       </section>
 
