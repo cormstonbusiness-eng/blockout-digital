@@ -97,15 +97,31 @@ export default function Home() {
         </div>
       </div>
 
-      {/* OVERVIEW SECTION */}
-      <section className="section-pad">
-        <div className="wrap center">
-          <p className="lead reveal" style={{ maxWidth: "65ch", margin: "0 auto 32px" }}>
-            Blockout is a full-service design studio based in Nuneaton, Warwickshire. We're a one-man studio led by founder Craig Ormston, specializing in creating bold, strategic design solutions for brands that refuse to blend in. From websites and branding to digital marketing, exhibition design, and 3D visualization, we deliver work that stops people in their tracks.
-          </p>
-          <p className="reveal" data-d="1" style={{ maxWidth: "65ch", margin: "0 auto", fontSize: "1.05rem", lineHeight: "1.7", color: "var(--ink-soft)" }}>
-            We believe in deliberate design – strategic thinking combined with bold execution. Every project we take on receives the full attention and expertise needed to create something unmissable. Whether you're launching a new brand, redesigning your digital presence, or creating something entirely new, we bring a strategic mindset and uncompromising design standards to the table.
-          </p>
+      {/* ABOUT BLOCKOUT */}
+      <section className="section-pad" style={{ background: "var(--paper-warm)", borderBlock: "3px solid var(--ink)" }}>
+        <div className="wrap" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "54px", alignItems: "center" }}>
+          <div className="reveal">
+            <span className="eyebrow">About Blockout</span>
+            <h2 className="h-lg" style={{ marginTop: "16px", maxWidth: "20ch" }}>
+              Bold design, <span className="text-orange">strategic</span> thinking.
+            </h2>
+            <p style={{ marginTop: "24px", fontSize: "1.05rem", lineHeight: "1.7", color: "var(--ink-soft)" }}>
+              Blockout is a full-service design studio based in Nuneaton, Warwickshire. We're a one-man studio led by founder Craig Ormston, specializing in creating bold, strategic design solutions for brands that refuse to blend in.
+            </p>
+          </div>
+          <div className="reveal" data-d="1" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "36px", boxShadow: "var(--shadow-pop)" }}>
+            <h3 className="h-md" style={{ margin: "0 0 16px" }}>What we deliver</h3>
+            <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--ink-soft)", lineHeight: "1.8" }}>
+              <li>Websites & digital experiences</li>
+              <li>Brand identity & strategy</li>
+              <li>Digital marketing campaigns</li>
+              <li>Exhibition & physical design</li>
+              <li>3D visualization & renders</li>
+            </ul>
+            <p style={{ marginTop: "20px", fontSize: "0.95rem", color: "var(--ink-soft)" }}>
+              From concept to delivery, we bring strategic mindset and uncompromising design standards to create work that stops people in their tracks.
+            </p>
+          </div>
         </div>
       </section>
 
