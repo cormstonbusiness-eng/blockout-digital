@@ -443,7 +443,6 @@ export default function Home() {
           <p className="lead reveal" style={{ maxWidth: "65ch", marginTop: "32px" }}>
             Every project in our portfolio represents a commitment to bold thinking and flawless execution. From branding and web design to digital marketing campaigns and immersive exhibition spaces, we've helped brands across industries make their mark. Take a look at some of our recent work to see how we approach design challenges.
           </p>
-        </div>
           <div className="grid-2" style={{ marginTop: "42px" }}>
             <Link href="/portfolio" className="reveal" data-d="1">
               <div className="placeholder" style={{ aspectRatio: "4/3" }}>
