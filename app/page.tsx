@@ -488,6 +488,51 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* RESOURCES & SHARING */}
+      <section className="section-pad" style={{ background: "var(--paper-warm)", borderTop: "3px solid var(--ink)" }}>
+        <div className="wrap">
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "54px", alignItems: "start" }}>
+            <div className="reveal">
+              <h3 className="h-md" style={{ marginBottom: "20px" }}>Learn more about design</h3>
+              <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
+                Design is constantly evolving. Stay updated with industry insights, trends, and best practices that shape modern branding and digital experiences.
+              </p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+                <a href="https://www.smashingmagazine.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--orange)", fontWeight: "600", textDecoration: "none" }}>
+                  Smashing Magazine – Web design & development →
+                </a>
+                <a href="https://www.aiga.org/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--orange)", fontWeight: "600", textDecoration: "none" }}>
+                  AIGA – Professional design organization →
+                </a>
+                <a href="https://www.interaction-design.org/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--orange)", fontWeight: "600", textDecoration: "none" }}>
+                  Interaction Design Foundation – Design resources →
+                </a>
+              </div>
+            </div>
+            <div className="reveal" data-d="1">
+              <h3 className="h-md" style={{ marginBottom: "20px" }}>Share our work</h3>
+              <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
+                Know someone who needs bold design? Share Blockout Digital with your network on social media.
+              </p>
+              <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+                <a href="https://www.linkedin.com/company/blockout-digital/" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: "48px", height: "48px", background: "var(--orange)", color: "#fff", borderRadius: "50%", fontWeight: "700", textDecoration: "none" }} title="Share on LinkedIn">
+                  in
+                </a>
+                <a href="https://twitter.com/intent/tweet?url=https://blockout.digital&text=Check%20out%20Blockout%20Digital%20-%20bold%20design%20studio" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: "48px", height: "48px", background: "var(--orange)", color: "#fff", borderRadius: "50%", fontWeight: "700", textDecoration: "none" }} title="Share on X/Twitter">
+                  𝕏
+                </a>
+                <a href="https://www.instagram.com/blockout.digital/" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: "48px", height: "48px", background: "var(--orange)", color: "#fff", borderRadius: "50%", fontWeight: "700", textDecoration: "none", fontSize: "1.2rem" }} title="Follow on Instagram">
+                  📷
+                </a>
+                <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: "48px", height: "48px", background: "var(--orange)", color: "#fff", borderRadius: "50%", fontWeight: "700", textDecoration: "none", fontSize: "0.8rem" }} title="View on Behance">
+                  Be
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
