@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
           <div className="footer__col">
             <h4>Say hello</h4>
-            <a href="mailto:hello@blockout.digital">hello@blockout.digital</a>
+            <a href="mailto:hello@blockoutdigital.com">hello@blockoutdigital.com</a>
             <a href="tel:+447931876340">+44 (0)7931 876340</a>
             <Link href="/contact">Start a project →</Link>
           </div>

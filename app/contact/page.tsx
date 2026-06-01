@@ -123,7 +123,7 @@ export default function Contact() {
                 <span className="contact-ico">+</span>
                 <div>
                   <div className="contact-k">Email</div>
-                  <a href="mailto:hello@blockout.digital">hello@blockout.digital</a>
+                  <a href="mailto:hello@blockoutdigital.com">hello@blockoutdigital.com</a>
                 </div>
               </div>
               <div className="contact-line">

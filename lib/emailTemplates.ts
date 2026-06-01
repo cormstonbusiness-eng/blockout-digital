@@ -180,7 +180,7 @@ export function userConfirmationEmail(data: { name: string; message: string }) {
     <div class="footer">
       <p><strong>Blockout Digital</strong></p>
       <p>Nuneaton, Warwickshire</p>
-      <p><a href="mailto:hello@blockout.digital">hello@blockout.digital</a></p>
+      <p><a href="mailto:hello@blockoutdigital.com">hello@blockoutdigital.com</a></p>
       <p style="margin-top: 16px; opacity: 0.8;">Every great project starts with a blockout.</p>
     </div>
   </div>
