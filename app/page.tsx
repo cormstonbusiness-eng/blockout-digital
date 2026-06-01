@@ -348,8 +348,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TRUSTPILOT REVIEWS */}
-      <section className="section-pad" style={{ background: "var(--ink)", borderBlock: "3px solid var(--ink)" }}>
+      {/* TRUSTPILOT REVIEWS - Hidden until reviews are available */}
+      {/* <section className="section-pad" style={{ background: "var(--ink)", borderBlock: "3px solid var(--ink)" }}>
         <div className="wrap center">
           <span className="eyebrow reveal mx-auto" style={{ justifyContent: "center", color: "var(--orange)" }}>
             What clients say
@@ -359,7 +359,7 @@ export default function Home() {
           </h2>
           <TrustpilotReviews />
         </div>
-      </section>
+      </section> */}
 
       {/* WORK PREVIEW */}
       <section className="section-pad">
