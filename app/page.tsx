@@ -113,9 +113,10 @@ export default function Home() {
           <div className="reveal" data-d="1" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "36px", boxShadow: "var(--shadow-pop)" }}>
             <h3 className="h-md" style={{ margin: "0 0 16px" }}>What we deliver</h3>
             <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--ink-soft)", lineHeight: "1.8" }}>
-              <li>Websites & digital experiences</li>
+              <li>Websites</li>
               <li>Brand identity & strategy</li>
               <li>Digital marketing campaigns</li>
+              <li>SEO Optimisation</li>
               <li>Exhibition & physical design</li>
               <li>3D visualization & renders</li>
             </ul>
