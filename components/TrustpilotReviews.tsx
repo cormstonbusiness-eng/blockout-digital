@@ -48,7 +48,8 @@ export default function TrustpilotReviews() {
 
         if (data.businessUnits && data.businessUnits[0]) {
           const unit = data.businessUnits[0];
-          setReviews(unit.reviews.slice(0, 3));
+          const fiveStarReviews = unit.reviews.filter((r) => r.rating === 5).slice(0, 3);
+          setReviews(fiveStarReviews);
           setRating(unit.stats.rating.average);
         }
       } catch (error) {
