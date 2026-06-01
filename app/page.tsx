@@ -363,70 +363,23 @@ export default function Home() {
 
       {/* WORK PREVIEW */}
       <section className="section-pad">
-        <div className="wrap">
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "flex-end",
-              flexWrap: "wrap",
-              gap: "18px",
-            }}
-            className="reveal"
-          >
-            <div>
-              <span className="eyebrow">Recent blockouts</span>
-              <h2 className="h-xl" style={{ marginTop: "14px" }}>
-                Work that <span className="text-orange">pops.</span>
-              </h2>
-            </div>
-            <Link href="/portfolio" className="link-arrow">
-              View all work →
-            </Link>
+        <div className="wrap center">
+          <div className="reveal">
+            <span className="eyebrow">Coming soon</span>
+            <h2 className="h-xl reveal" style={{ margin: "14px 0 28px", maxWidth: "28ch" }}>
+              Our portfolio is <span className="text-orange">building.</span>
+            </h2>
           </div>
-          <p className="lead reveal" style={{ maxWidth: "65ch", marginTop: "32px" }}>
-            Every project in our portfolio represents a commitment to bold thinking and flawless execution. From branding and web design to digital marketing campaigns and immersive exhibition spaces, we've helped brands across industries make their mark. Take a look at some of our recent work to see how we approach design challenges.
+          <p className="lead reveal" style={{ maxWidth: "55ch", marginBottom: "48px" }}>
+            We're actively crafting bold work across branding, web design, digital marketing, exhibition spaces, and 3D visualization. Each project represents our commitment to uncompromising design standards and strategic thinking.
           </p>
-          <div className="grid-2" style={{ marginTop: "42px" }}>
-            <Link href="/portfolio" className="reveal" data-d="1">
-              <div className="placeholder" style={{ aspectRatio: "4/3" }}>
-                <span>Project image · 1600×1200</span>
-              </div>
-              <div
-                style={{
-                  marginTop: "14px",
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  gap: "10px",
-                }}
-              >
-                <h3 className="h-md">Nimbus – brand & site</h3>
-                <span className="pill">Branding</span>
-              </div>
-            </Link>
-            <Link href="/portfolio" className="reveal" data-d="2">
-              <div
-                className="placeholder"
-                style={{
-                  aspectRatio: "4/3",
-                  background: "repeating-linear-gradient(45deg,#16110d 0 14px,#221a14 14px 28px)",
-                }}
-              >
-                <span>Project image · 1600×1200</span>
-              </div>
-              <div
-                style={{
-                  marginTop: "14px",
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  gap: "10px",
-                }}
-              >
-                <h3 className="h-md">Volt – expo stand</h3>
-                <span className="pill">Exhibition</span>
-              </div>
+          <div className="reveal" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "48px", boxShadow: "var(--shadow-pop)", maxWidth: "500px", margin: "0 auto" }}>
+            <h3 className="h-md" style={{ margin: "0 0 16px" }}>Let's start your blockout</h3>
+            <p style={{ color: "var(--ink-soft)", margin: "0 0 24px", lineHeight: "1.6" }}>
+              Don't wait for the portfolio. If you're ready to build something bold, let's talk about your project today.
+            </p>
+            <Link href="/contact" className="btn btn--lg" data-magnetic style={{ display: "inline-block" }}>
+              Start a project <span className="arr">→</span>
             </Link>
           </div>
         </div>
