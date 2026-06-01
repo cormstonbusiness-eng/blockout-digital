@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TrustpilotReviews from "@/components/TrustpilotReviews";
 
 export default function Home() {
   return (
@@ -355,89 +356,7 @@ export default function Home() {
           <h2 className="h-xl reveal mx-auto" data-d="1" style={{ margin: "14px auto 28px", maxWidth: "18ch", color: "#fff" }}>
             Trusted by brilliant brands
           </h2>
-          <div
-            className="reveal"
-            data-d="2"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              gap: "16px",
-              marginBottom: "48px",
-            }}
-          >
-            <div style={{ display: "flex", gap: "4px" }}>
-              {[...Array(5)].map((_, i) => (
-                <span key={i} style={{ fontSize: "1.6rem", color: "var(--orange)" }}>
-                  ★
-                </span>
-              ))}
-            </div>
-            <p style={{ fontSize: "1.05rem", fontWeight: "600", margin: 0, color: "#fff" }}>
-              5.0 out of 5 based on reviews
-            </p>
-          </div>
-        </div>
-
-        <div
-          className="wrap"
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-            gap: "28px",
-            marginTop: "48px",
-          }}
-        >
-          <div style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "28px", boxShadow: "var(--shadow-pop)" }} className="reveal" data-d="1">
-            <div style={{ display: "flex", gap: "4px", marginBottom: "12px" }}>
-              {[...Array(5)].map((_, i) => (
-                <span key={i} style={{ fontSize: "1rem", color: "var(--orange)" }}>
-                  ★
-                </span>
-              ))}
-            </div>
-            <p style={{ margin: 0, marginBottom: "12px", fontSize: "0.95rem", lineHeight: "1.6", minHeight: "60px", background: "var(--orange-tint)", padding: "12px", borderRadius: "8px", color: "var(--ink-soft)", fontStyle: "italic" }}>
-              [Trustpilot review will appear here]
-            </p>
-            <p style={{ margin: 0, fontWeight: "600", fontSize: "0.9rem" }}>[Client Name]</p>
-            <p style={{ margin: "4px 0 0 0", fontSize: "0.85rem", color: "var(--ink-soft)" }}>
-              [Company/Title]
-            </p>
-          </div>
-
-          <div style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "28px", boxShadow: "var(--shadow-pop)" }} className="reveal" data-d="2">
-            <div style={{ display: "flex", gap: "4px", marginBottom: "12px" }}>
-              {[...Array(5)].map((_, i) => (
-                <span key={i} style={{ fontSize: "1rem", color: "var(--orange)" }}>
-                  ★
-                </span>
-              ))}
-            </div>
-            <p style={{ margin: 0, marginBottom: "12px", fontSize: "0.95rem", lineHeight: "1.6", minHeight: "60px", background: "var(--orange-tint)", padding: "12px", borderRadius: "8px", color: "var(--ink-soft)", fontStyle: "italic" }}>
-              [Trustpilot review will appear here]
-            </p>
-            <p style={{ margin: 0, fontWeight: "600", fontSize: "0.9rem" }}>[Client Name]</p>
-            <p style={{ margin: "4px 0 0 0", fontSize: "0.85rem", color: "var(--ink-soft)" }}>
-              [Company/Title]
-            </p>
-          </div>
-
-          <div style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "28px", boxShadow: "var(--shadow-pop)" }} className="reveal" data-d="3">
-            <div style={{ display: "flex", gap: "4px", marginBottom: "12px" }}>
-              {[...Array(5)].map((_, i) => (
-                <span key={i} style={{ fontSize: "1rem", color: "var(--orange)" }}>
-                  ★
-                </span>
-              ))}
-            </div>
-            <p style={{ margin: 0, marginBottom: "12px", fontSize: "0.95rem", lineHeight: "1.6", minHeight: "60px", background: "var(--orange-tint)", padding: "12px", borderRadius: "8px", color: "var(--ink-soft)", fontStyle: "italic" }}>
-              [Trustpilot review will appear here]
-            </p>
-            <p style={{ margin: 0, fontWeight: "600", fontSize: "0.9rem" }}>[Client Name]</p>
-            <p style={{ margin: "4px 0 0 0", fontSize: "0.85rem", color: "var(--ink-soft)" }}>
-              [Company/Title]
-            </p>
-          </div>
+          <TrustpilotReviews />
         </div>
       </section>
 
