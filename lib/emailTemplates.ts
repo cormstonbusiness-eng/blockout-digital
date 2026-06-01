@@ -16,81 +16,80 @@ export function adminNotificationEmail(data: {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background-color: #f5f5f5; }
-    .container { max-width: 600px; margin: 0 auto; background-color: #ffffff; }
-    .header { background-color: #16110D; color: #ffffff; padding: 32px 24px; border-bottom: 3px solid #F85008; }
-    .header h1 { margin: 0; font-size: 28px; font-weight: 800; }
-    .content { padding: 32px 24px; }
-    .content h2 { color: #16110D; font-size: 18px; font-weight: 700; margin-top: 24px; margin-bottom: 12px; }
-    .content p { color: #4A4038; margin: 0 0 12px 0; line-height: 1.6; }
-    .field { margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #e0e0e0; }
-    .field-label { color: #F85008; font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
-    .field-value { color: #16110D; font-size: 14px; margin-top: 4px; }
-    .message-box { background-color: #f9f9f9; border-left: 3px solid #F85008; padding: 16px; margin: 20px 0; }
-    .message-box p { color: #16110D; margin: 0; line-height: 1.6; }
-    .footer { background-color: #f9f9f9; padding: 20px 24px; border-top: 1px solid #e0e0e0; text-align: center; }
-    .footer p { color: #4A4038; margin: 0; font-size: 12px; line-height: 1.5; }
-    .footer a { color: #F85008; text-decoration: none; }
+    body { margin: 0; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background: linear-gradient(135deg, #F85008 0%, #16110D 100%); }
+    .container { max-width: 600px; margin: 0 auto; background-color: #FFFFFF; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 60px rgba(24, 17, 13, 0.15); }
+    .header { background-color: #F85008; color: #FFFFFF; padding: 40px 30px; text-align: center; }
+    .header h1 { margin: 0; font-size: 32px; font-weight: 800; letter-spacing: -0.02em; }
+    .header p { margin: 12px 0 0 0; font-size: 16px; opacity: 0.95; font-weight: 500; }
+    .content { padding: 40px 30px; }
+    .intro { color: #16110D; font-size: 16px; font-weight: 600; margin-bottom: 28px; }
+    .card { background-color: #F9F6F2; border-radius: 16px; padding: 20px; margin-bottom: 16px; border-left: 4px solid #F85008; }
+    .card-label { color: #F85008; font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 6px; display: block; }
+    .card-value { color: #16110D; font-size: 15px; font-weight: 600; word-break: break-word; }
+    .card-value a { color: #F85008; text-decoration: none; }
+    .message-card { background-color: #FFF4ED; border-radius: 16px; padding: 24px; margin: 24px 0; border: 2px solid #F85008; }
+    .message-card p { color: #16110D; margin: 0; line-height: 1.7; font-size: 14px; }
+    .message-label { color: #F85008; font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 12px; display: block; }
+    .footer { background-color: #16110D; color: #FFFFFF; padding: 30px; text-align: center; }
+    .footer p { margin: 0 0 8px 0; font-size: 13px; line-height: 1.6; }
+    .footer a { color: #F85008; text-decoration: none; font-weight: 600; }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="header">
-      <h1>Blockout Digital</h1>
-      <p style="margin: 8px 0 0 0; color: #fff; opacity: 0.9;">New Contact Form Submission</p>
+      <h1>🎯 New Enquiry!</h1>
+      <p>Someone wants to build something bold</p>
     </div>
 
     <div class="content">
-      <p>A new enquiry has been received from the contact form.</p>
+      <p class="intro">Here's what they sent:</p>
 
-      <div class="field">
-        <div class="field-label">Name</div>
-        <div class="field-value">${data.name}</div>
+      <div class="card">
+        <span class="card-label">Name</span>
+        <div class="card-value">${data.name}</div>
       </div>
 
-      <div class="field">
-        <div class="field-label">Email</div>
-        <div class="field-value"><a href="mailto:${data.email}" style="color: #F85008;">${data.email}</a></div>
+      <div class="card">
+        <span class="card-label">Email</span>
+        <div class="card-value"><a href="mailto:${data.email}">${data.email}</a></div>
       </div>
 
       ${data.company ? `
-      <div class="field">
-        <div class="field-label">Company</div>
-        <div class="field-value">${data.company}</div>
+      <div class="card">
+        <span class="card-label">Company</span>
+        <div class="card-value">${data.company}</div>
       </div>
       ` : ''}
 
       ${data.phone ? `
-      <div class="field">
-        <div class="field-label">Phone</div>
-        <div class="field-value"><a href="tel:${data.phone}" style="color: #F85008;">${data.phone}</a></div>
+      <div class="card">
+        <span class="card-label">Phone</span>
+        <div class="card-value"><a href="tel:${data.phone}">${data.phone}</a></div>
       </div>
       ` : ''}
 
-      <div class="field">
-        <div class="field-label">Services Interested In</div>
-        <div class="field-value">${servicesList}</div>
+      <div class="card">
+        <span class="card-label">Services</span>
+        <div class="card-value">${servicesList}</div>
       </div>
 
       ${data.budget ? `
-      <div class="field">
-        <div class="field-label">Budget</div>
-        <div class="field-value">${data.budget}</div>
+      <div class="card">
+        <span class="card-label">Budget</span>
+        <div class="card-value">${data.budget}</div>
       </div>
       ` : ''}
 
-      <h2>Message</h2>
-      <div class="message-box">
+      <div class="message-card">
+        <span class="message-label">Their Message</span>
         <p>${data.message.replace(/\n/g, '<br>')}</p>
       </div>
-
-      <p style="margin-top: 32px; padding-top: 24px; border-top: 1px solid #e0e0e0; color: #4A4038; font-size: 12px;">
-        This is an automated notification from your contact form.
-      </p>
     </div>
 
     <div class="footer">
-      <p>&copy; 2026 Blockout Digital. All rights reserved.</p>
+      <p><strong>Blockout Digital</strong></p>
+      <p>Time to respond and build something brilliant 🚀</p>
     </div>
   </div>
 </body>
@@ -100,7 +99,7 @@ export function adminNotificationEmail(data: {
 
 export function userConfirmationEmail(data: { name: string; message: string }) {
   const firstName = data.name.split(" ")[0];
-  const messagePreview = data.message.substring(0, 150) + (data.message.length > 150 ? "..." : "");
+  const messagePreview = data.message.substring(0, 120) + (data.message.length > 120 ? "..." : "");
 
   return `
 <!DOCTYPE html>
@@ -109,67 +108,83 @@ export function userConfirmationEmail(data: { name: string; message: string }) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background-color: #f5f5f5; }
-    .container { max-width: 600px; margin: 0 auto; background-color: #ffffff; }
-    .header { background-color: #ffffff; padding: 32px 24px; text-align: center; border-bottom: 3px solid #F85008; }
-    .header h1 { margin: 0; font-size: 32px; font-weight: 800; color: #16110D; }
-    .header p { margin: 8px 0 0 0; color: #4A4038; font-size: 16px; }
-    .content { padding: 40px 24px; text-align: center; }
-    .content h2 { color: #16110D; font-size: 22px; font-weight: 700; margin: 0 0 16px 0; }
-    .content p { color: #4A4038; margin: 0 0 16px 0; line-height: 1.6; font-size: 15px; }
+    body { margin: 0; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background: #F9F6F2; }
+    .container { max-width: 600px; margin: 0 auto; background-color: #FFFFFF; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 60px rgba(248, 80, 8, 0.12); }
+    .header { background: linear-gradient(135deg, #F85008 0%, #FF6B35 100%); color: #FFFFFF; padding: 50px 30px; text-align: center; }
+    .header h1 { margin: 0; font-size: 36px; font-weight: 800; letter-spacing: -0.02em; }
+    .header p { margin: 12px 0 0 0; font-size: 14px; opacity: 0.95; }
+    .content { padding: 40px 30px; text-align: center; }
+    .welcome { color: #16110D; font-size: 18px; font-weight: 700; margin-bottom: 12px; }
+    .subtitle { color: #4A4038; font-size: 15px; line-height: 1.6; margin-bottom: 32px; }
     .highlight { color: #F85008; font-weight: 700; }
-    .summary { background-color: #f9f9f9; border-left: 3px solid #F85008; padding: 20px; margin: 32px 0; text-align: left; }
-    .summary p { margin: 8px 0; color: #16110D; font-size: 14px; }
-    .summary-label { color: #F85008; font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 4px; }
-    .timeline { margin: 32px 0; }
-    .timeline-item { display: flex; margin-bottom: 16px; }
-    .timeline-dot { width: 12px; height: 12px; background-color: #F85008; border-radius: 50%; margin-right: 12px; margin-top: 4px; flex-shrink: 0; }
-    .timeline-content { color: #16110D; font-size: 14px; line-height: 1.5; }
-    .social { margin: 32px 0; }
-    .social-link { display: inline-block; margin: 0 12px; }
-    .social-link a { color: #F85008; text-decoration: none; font-weight: 600; font-size: 14px; }
-    .footer { background-color: #16110D; color: #ffffff; padding: 32px 24px; text-align: center; }
-    .footer p { margin: 0 0 8px 0; font-size: 12px; line-height: 1.5; }
+    .card { background-color: #FFF4ED; border-radius: 16px; padding: 24px; margin: 28px 0; border: 2px solid #F85008; text-align: left; }
+    .card-label { color: #F85008; font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px; display: block; }
+    .card-value { color: #16110D; font-size: 14px; line-height: 1.6; }
+    .timeline { margin: 32px 0; text-align: left; }
+    .step { display: flex; margin-bottom: 20px; }
+    .step-icon { width: 44px; height: 44px; background-color: #F85008; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 800; font-size: 18px; flex-shrink: 0; margin-right: 16px; }
+    .step-content { flex: 1; }
+    .step-title { color: #16110D; font-weight: 700; margin-bottom: 4px; font-size: 15px; }
+    .step-desc { color: #4A4038; font-size: 13px; line-height: 1.6; }
+    .cta-section { background-color: #F9F6F2; border-radius: 16px; padding: 28px; margin: 28px 0; }
+    .cta-text { color: #16110D; font-weight: 600; font-size: 15px; margin-bottom: 16px; }
+    .social { margin: 28px 0; }
+    .social-text { color: #4A4038; font-size: 12px; margin-bottom: 12px; }
+    .social-links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .social-link a { color: #F85008; text-decoration: none; font-weight: 600; font-size: 13px; padding: 8px 16px; background-color: #FFF4ED; border-radius: 8px; display: inline-block; }
+    .footer { background-color: #16110D; color: #FFFFFF; padding: 32px 30px; text-align: center; }
+    .footer p { margin: 0 0 8px 0; font-size: 13px; line-height: 1.6; }
     .footer a { color: #F85008; text-decoration: none; }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="header">
-      <h1>Blockout</h1>
-      <p>Design that stops people</p>
+      <h1>Got it! 🎯</h1>
+      <p>Your project is in good hands</p>
     </div>
 
     <div class="content">
-      <h2>Thanks for reaching out, ${firstName}!</h2>
-      <p>We've received your enquiry and we're excited to hear about your project.</p>
+      <h2 class="welcome">Thanks for reaching out, ${firstName}!</h2>
+      <p class="subtitle">We've received your message and we're excited to hear about your project. Time to do something <span class="highlight">bold.</span></p>
 
-      <div class="summary">
-        <p><span class="summary-label">Your Message</span>${messagePreview}</p>
+      <div class="card">
+        <span class="card-label">Your Project Brief</span>
+        <div class="card-value">${messagePreview}</div>
       </div>
 
-      <h2 style="font-size: 18px; margin-top: 32px;">What happens next?</h2>
-
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content"><strong>We review your project</strong> — Our team reads through your enquiry carefully.</div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content"><strong>We get back to you</strong> — Within 24 hours, we'll respond with thoughts and next steps.</div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content"><strong>Let's build</strong> — If we're a good fit, we'll talk about your vision and how we can help.</div>
+      <div class="cta-section">
+        <p class="cta-text">Here's what happens next:</p>
+        <div class="timeline">
+          <div class="step">
+            <div class="step-icon">1</div>
+            <div class="step-content">
+              <div class="step-title">We review your project</div>
+              <div class="step-desc">Our team reads your brief carefully and gets the vibe of what you're building.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-icon">2</div>
+            <div class="step-content">
+              <div class="step-title">We get back to you</div>
+              <div class="step-desc">Within 24 hours, you'll hear from us with thoughts, ideas, and next steps.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-icon">3</div>
+            <div class="step-content">
+              <div class="step-title">Let's build</div>
+              <div class="step-desc">If we're a good fit, we'll talk about your vision and make something unmissable.</div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <p style="margin-top: 24px; color: #F85008; font-weight: 700;">No generic responses. No waiting around. Just direct, honest conversation.</p>
+      <p style="color: #F85008; font-weight: 700; font-size: 14px; margin: 24px 0;">No generic responses. No waiting around. Just direct, honest conversation.</p>
 
       <div class="social">
-        <p style="color: #4A4038; font-size: 12px; margin: 0 0 12px 0;">Follow us for the latest work and insights</p>
-        <div>
+        <p class="social-text">Follow us for the latest work and insights</p>
+        <div class="social-links">
           <span class="social-link"><a href="https://instagram.com/blockout.digital">Instagram</a></span>
           <span class="social-link"><a href="https://linkedin.com/company/blockout-digital">LinkedIn</a></span>
           <span class="social-link"><a href="https://behance.net/blockout">Behance</a></span>
@@ -181,7 +196,7 @@ export function userConfirmationEmail(data: { name: string; message: string }) {
       <p><strong>Blockout Digital</strong></p>
       <p>Nuneaton, Warwickshire</p>
       <p><a href="mailto:hello@blockoutdigital.com">hello@blockoutdigital.com</a></p>
-      <p style="margin-top: 16px; opacity: 0.8;">Every great project starts with a blockout.</p>
+      <p style="margin-top: 16px; opacity: 0.8;">Every great project starts with a blockout 🚀</p>
     </div>
   </div>
 </body>
