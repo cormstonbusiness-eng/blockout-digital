@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useState } from "react";
 
+// Trigger Vercel redeploy with RESEND_API_KEY environment variable
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -16,6 +18,8 @@ export default function Contact() {
   const [selectedServices, setSelectedServices] = useState<string[]>([]);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.currentTarget;
@@ -35,7 +39,7 @@ export default function Contact() {
     setFormData((prev) => ({ ...prev, budget }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const newErrors: Record<string, string> = {};
@@ -50,7 +54,27 @@ export default function Contact() {
       return;
     }
 
-    setSubmitted(true);
+    setLoading(true);
+    setSubmitError(null);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ formData, selectedServices }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to send message");
+      }
+
+      setSubmitted(true);
+    } catch (error) {
+      setSubmitError("Failed to send message. Please try again later.");
+      console.error("Contact form error:", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -239,8 +263,13 @@ export default function Contact() {
                     {errors.message && <div className="field__err">{errors.message}</div>}
                   </div>
 
-                  <button type="submit" className="btn btn--lg" data-magnetic style={{ alignSelf: "flex-start" }}>
-                    Send it over <span className="arr">→</span>
+                  {submitError && (
+                    <div style={{ color: "var(--orange)", fontWeight: 600, marginBottom: "12px" }}>
+                      {submitError}
+                    </div>
+                  )}
+                  <button type="submit" className="btn btn--lg" data-magnetic style={{ alignSelf: "flex-start" }} disabled={loading}>
+                    {loading ? "Sending..." : "Send it over"} <span className="arr">→</span>
                   </button>
                 </form>
               </div>
@@ -265,6 +294,7 @@ export default function Contact() {
         .contact-ico{ width:50px; height:50px; flex:none; display:flex; align-items:center; justify-content:center; font-size:1.4rem; background:var(--orange); color:#fff; border:3px solid var(--ink); border-radius:var(--r-md); box-shadow:var(--shadow-pop); }
         .contact-k{ font-family:var(--display); font-weight:700; font-size:.85rem; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-soft); }
         .contact-line a, .contact-line span{ font-size:1.1rem; font-weight:600; }
+        #contact-form button[type="submit"]:disabled { opacity:.6; cursor:not-allowed; }
         @media (max-width:880px){ .contact-grid{ grid-template-columns:1fr; gap:40px; } }
         @media (max-width:640px){
           .contact-ico{ width:44px; height:44px; font-size:1.2rem; }
