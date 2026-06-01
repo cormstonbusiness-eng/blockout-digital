@@ -44,7 +44,7 @@ export async function POST(request: Request) {
 
     // Send admin notification email
     await resend.emails.send({
-      from: "Contact Form <noreply@blockout.digital>",
+      from: "Contact Form <noreply@blockoutdigital.com>",
       to: "hello@blockoutdigital.com",
       subject: `New Contact Form Submission from ${formData.name}`,
       html: adminNotificationEmail({
@@ -60,7 +60,7 @@ export async function POST(request: Request) {
 
     // Send user confirmation email
     await resend.emails.send({
-      from: "Blockout Digital <hello@blockout.digital>",
+      from: "Blockout Digital <hello@blockoutdigital.com>",
       to: formData.email,
       subject: "Thanks for reaching out to Blockout Digital",
       html: userConfirmationEmail({
