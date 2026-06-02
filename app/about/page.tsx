@@ -18,6 +18,38 @@ export default function About() {
         </div>
       </section>
 
+      {/* CRAIG */}
+      <section className="section-pad">
+        <div className="wrap" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "54px", alignItems: "start" }}>
+          <div className="reveal">
+            <span className="eyebrow">Meet Craig</span>
+            <h2 className="h-lg" style={{ marginTop: "16px", marginBottom: "24px" }}>
+              11 years. Multiple industries. One vision.
+            </h2>
+            <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
+              Craig Ormston is the founder and sole operator of Blockout Digital. A journey that started in architectural visualization evolved into something much bigger – a multifaceted career spanning 3D visualization, CAD design, exhibition design, and self-taught web development and digital strategy.
+            </p>
+            <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
+              That range isn't a scattered résumé – it's the foundation of everything. When you've designed for architects, engineered with CAD precision, built modular exhibition systems, and taught yourself web strategy from the ground up, you understand the full picture. You know how to design for reality. You understand technical constraints, budget limitations, and what actually gets built.
+            </p>
+            <p style={{ color: "var(--ink-soft)", lineHeight: "1.7" }}>
+              Every skill – from photorealistic 3D renders to technical construction drawings, from BeMatrix systems to SEO algorithms – is available on every project. You're not hiring a designer. You're partnering with someone who understands the entire process from concept through delivery.
+            </p>
+          </div>
+
+          <div>
+            <div className="reveal" data-d="1">
+              <img src="/craig-portrait.jpg" alt="Craig Ormston" style={{ aspectRatio: "1/1", borderRadius: "var(--r-lg)", marginBottom: "20px", width: "100%", objectFit: "cover", border: "3px solid var(--ink)" }} />
+              <h3 className="h-md">Craig Ormston</h3>
+              <p style={{ color: "var(--orange)", fontWeight: 700, marginBottom: "12px" }}>Founder, Designer & Developer</p>
+              <p style={{ color: "var(--ink-soft)", fontSize: "0.95rem", lineHeight: "1.6" }}>
+                Architectural Visualization, CAD Design, Exhibition Design, 3D Rendering, Construction Documentation, Web Design, SEO, Digital Marketing & Full-Stack Strategy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CRAIG'S JOURNEY */}
       <section className="section-pad bg-warm" style={{ borderBlock: "3px solid var(--ink)" }}>
         <div className="wrap">
@@ -111,38 +143,6 @@ export default function About() {
               <div className="display h-lg text-orange">D</div>
               <h3 className="h-md" style={{ margin: "8px 0" }}>Genuinely fun</h3>
               <p style={{ color: "var(--ink-soft)" }}>If we're not enjoying it, it shows. So we make the process a good time.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CRAIG */}
-      <section className="section-pad">
-        <div className="wrap" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "54px", alignItems: "start" }}>
-          <div className="reveal">
-            <span className="eyebrow">Meet Craig</span>
-            <h2 className="h-lg" style={{ marginTop: "16px", marginBottom: "24px" }}>
-              11 years. Multiple industries. One vision.
-            </h2>
-            <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-              Craig Ormston is the founder and sole operator of Blockout Digital. A journey that started in architectural visualization evolved into something much bigger – a multifaceted career spanning 3D visualization, CAD design, exhibition design, and self-taught web development and digital strategy.
-            </p>
-            <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-              That range isn't a scattered résumé – it's the foundation of everything. When you've designed for architects, engineered with CAD precision, built modular exhibition systems, and taught yourself web strategy from the ground up, you understand the full picture. You know how to design for reality. You understand technical constraints, budget limitations, and what actually gets built.
-            </p>
-            <p style={{ color: "var(--ink-soft)", lineHeight: "1.7" }}>
-              Every skill – from photorealistic 3D renders to technical construction drawings, from BeMatrix systems to SEO algorithms – is available on every project. You're not hiring a designer. You're partnering with someone who understands the entire process from concept through delivery.
-            </p>
-          </div>
-
-          <div>
-            <div className="reveal" data-d="1">
-              <img src="/craig-portrait.jpg" alt="Craig Ormston" style={{ aspectRatio: "1/1", borderRadius: "var(--r-lg)", marginBottom: "20px", width: "100%", objectFit: "cover", border: "3px solid var(--ink)" }} />
-              <h3 className="h-md">Craig Ormston</h3>
-              <p style={{ color: "var(--orange)", fontWeight: 700, marginBottom: "12px" }}>Founder, Designer & Developer</p>
-              <p style={{ color: "var(--ink-soft)", fontSize: "0.95rem", lineHeight: "1.6" }}>
-                Architectural Visualization, CAD Design, Exhibition Design, 3D Rendering, Construction Documentation, Web Design, SEO, Digital Marketing & Full-Stack Strategy.
-              </p>
             </div>
           </div>
         </div>
