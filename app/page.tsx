@@ -39,7 +39,7 @@ export default function Home() {
               color: "#fff",
             }}
           >
-            Websites
+            Website Development
           </div>
           <div
             className="sticker"
