@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   description:
     "Blockout Digital is a design agency doing websites, branding, digital marketing, exhibition design and 3D. Every great project starts with a Blockout.",
   icons: {
-    icon: "/logo-black.png",
-    apple: "/logo-black.png",
+    icon: "/favicon.jpg",
+    apple: "/favicon.jpg",
   },
 };
 
