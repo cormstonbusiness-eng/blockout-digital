@@ -147,22 +147,19 @@ export default function Services() {
             <p className="lead" style={{ marginBottom: "18px" }}>Stands that stop people mid-stride – designed to draw a crowd and start conversations.</p>
             <ul style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px 20px" }}>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Concept & spatial design
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Concept design & rendering
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Stand graphics
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Graphics & print-ready artwork
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>3D visualisation
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Electrical drawings
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Build management
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Construction drawings (beMatrix)
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Signage & wayfinding
-              </li>
-              <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>On-site support
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>On-site design support
               </li>
             </ul>
             <Link href="/contact" className="btn" data-magnetic style={{ marginTop: "26px" }}>
