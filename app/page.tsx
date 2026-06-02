@@ -48,6 +48,19 @@ export default function Home() {
             Branding
           </div>
           <div
+            className="sticker"
+            style={{
+              position: "absolute",
+              top: "75%",
+              left: "5%",
+              rotate: "4deg",
+              background: "var(--ink)",
+              color: "#fff",
+            }}
+          >
+            SEO Optimisation
+          </div>
+          <div
             className="sticker sticker--wiggle"
             style={{
               position: "absolute",
