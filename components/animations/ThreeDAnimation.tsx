@@ -97,24 +97,24 @@ export default function ThreeDAnimation() {
         <rect width="400" height="400" fill="url(#bgGradient)" />
 
         {/* Lighting glow */}
-        <circle class="lighting" cx="200" cy="150" r="0" />
+        <circle className="lighting" cx="200" cy="150" r="0" />
 
         {/* Main 3D model (cube-like shape) */}
-        <g class="model-object">
+        <g className="model-object">
           <polygon points="140,100 260,100 280,200 120,200" fill="var(--orange)" stroke="var(--ink)" strokeWidth="2" />
           <polygon points="140,100 140,220 120,200" fill="var(--orange)" opacity="0.7" stroke="var(--ink)" strokeWidth="2" />
           <polygon points="260,100 280,200 280,220 260,120" fill="var(--orange)" opacity="0.85" stroke="var(--ink)" strokeWidth="2" />
         </g>
 
         {/* Shadow under model */}
-        <ellipse class="shadow" cx="200" cy="280" rx="80" ry="0" />
+        <ellipse className="shadow" cx="200" cy="280" rx="80" ry="0" />
 
         {/* Highlights for depth */}
-        <ellipse class="lighting" cx="150" cy="130" rx="30" ry="15" opacity="0.4" />
-        <ellipse class="lighting" cx="230" cy="180" rx="25" ry="12" opacity="0.3" />
+        <ellipse className="lighting" cx="150" cy="130" rx="30" ry="15" opacity="0.4" />
+        <ellipse className="lighting" cx="230" cy="180" rx="25" ry="12" opacity="0.3" />
 
         {/* Final rendered output */}
-        <g class="final-output">
+        <g className="final-output">
           <rect x="80" y="300" width="240" height="60" rx="8" fill="var(--ink)" />
           <circle cx="110" cy="330" r="8" fill="var(--orange)" />
           <circle cx="160" cy="325" r="8" fill="var(--orange)" />

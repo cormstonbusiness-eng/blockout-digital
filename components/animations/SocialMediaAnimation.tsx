@@ -116,19 +116,19 @@ export default function SocialMediaAnimation() {
         <rect width="400" height="400" fill="var(--paper)" />
 
         {/* Content cards */}
-        <rect class="content-card card-1" x="50" y="50" width="300" height="60" rx="6" />
-        <rect class="content-card card-2" x="50" y="140" width="300" height="60" rx="6" />
-        <rect class="content-card card-3" x="50" y="230" width="300" height="60" rx="6" />
+        <rect className="content-card card-1" x="50" y="50" width="300" height="60" rx="6" />
+        <rect className="content-card card-2" x="50" y="140" width="300" height="60" rx="6" />
+        <rect className="content-card card-3" x="50" y="230" width="300" height="60" rx="6" />
 
         {/* Engagement bars */}
-        <rect class="engagement-bar engagement-bar" x="280" y="280" width="20" height="30" rx="3" />
-        <rect class="engagement-bar engagement-bar" x="310" y="275" width="20" height="35" rx="3" />
-        <rect class="engagement-bar engagement-bar" x="340" y="270" width="20" height="40" rx="3" />
+        <rect className="engagement-bar engagement-bar" x="280" y="280" width="20" height="30" rx="3" />
+        <rect className="engagement-bar engagement-bar" x="310" y="275" width="20" height="35" rx="3" />
+        <rect className="engagement-bar engagement-bar" x="340" y="270" width="20" height="40" rx="3" />
 
         {/* Spread circles (engagement growth) */}
-        <circle class="spread-circle spread-1" cx="200" cy="350" r="20" />
-        <circle class="spread-circle spread-2" cx="200" cy="350" r="40" />
-        <circle class="spread-circle spread-3" cx="200" cy="350" r="60" />
+        <circle className="spread-circle spread-1" cx="200" cy="350" r="20" />
+        <circle className="spread-circle spread-2" cx="200" cy="350" r="40" />
+        <circle className="spread-circle spread-3" cx="200" cy="350" r="60" />
 
         {/* Title */}
         <text x="200" y="370" style={{ fontSize: "14px", fill: "var(--ink-soft)", textAnchor: "middle", fontFamily: "Baloo 2, sans-serif" }}>Content & Growth</text>

@@ -96,21 +96,21 @@ export default function BrandingAnimation() {
         <rect width="400" height="400" fill="var(--paper)" />
 
         {/* Main brand circle */}
-        <circle class="brand-circle" cx="200" cy="200" r="80" stroke="var(--ink)" strokeWidth="3" />
+        <circle className="brand-circle" cx="200" cy="200" r="80" stroke="var(--ink)" strokeWidth="3" />
 
         {/* System circles around main */}
-        <circle class="brand-system" cx="200" cy="200" r="130" />
-        <circle class="brand-system" cx="200" cy="200" r="160" />
+        <circle className="brand-system" cx="200" cy="200" r="130" />
+        <circle className="brand-system" cx="200" cy="200" r="160" />
 
         {/* Color palette dots */}
-        <circle class="typo-text" cx="100" cy="120" r="8" fill="var(--orange)" style={{ animation: "typographyAppear 7s ease-in-out infinite", animationDelay: "4.2s" }} />
-        <circle class="typo-text" cx="130" cy="100" r="8" fill="var(--ink)" style={{ animation: "typographyAppear 7s ease-in-out infinite", animationDelay: "4.4s" }} />
-        <circle class="typo-text" cx="160" cy="95" r="8" fill="var(--ink-soft)" style={{ animation: "typographyAppear 7s ease-in-out infinite", animationDelay: "4.6s" }} />
+        <circle className="typo-text" cx="100" cy="120" r="8" fill="var(--orange)" style={{ animation: "typographyAppear 7s ease-in-out infinite", animationDelay: "4.2s" }} />
+        <circle className="typo-text" cx="130" cy="100" r="8" fill="var(--ink)" style={{ animation: "typographyAppear 7s ease-in-out infinite", animationDelay: "4.4s" }} />
+        <circle className="typo-text" cx="160" cy="95" r="8" fill="var(--ink-soft)" style={{ animation: "typographyAppear 7s ease-in-out infinite", animationDelay: "4.6s" }} />
 
         {/* Typography samples */}
-        <text class="typo-text" x="70" y="280" style={{ fontSize: "14px", fontWeight: "700", animation: "typographyAppear 7s ease-in-out infinite", animationDelay: "4.8s" }}>Bold</text>
-        <text class="typo-text" x="140" y="280" style={{ fontSize: "14px", fontWeight: "500", animation: "typographyAppear 7s ease-in-out infinite", animationDelay: "5s" }}>Medium</text>
-        <text class="typo-text" x="230" y="280" style={{ fontSize: "14px", fontWeight: "400", animation: "typographyAppear 7s ease-in-out infinite", animationDelay: "5.2s" }}>Regular</text>
+        <text className="typo-text" x="70" y="280" style={{ fontSize: "14px", fontWeight: "700", animation: "typographyAppear 7s ease-in-out infinite", animationDelay: "4.8s" }}>Bold</text>
+        <text className="typo-text" x="140" y="280" style={{ fontSize: "14px", fontWeight: "500", animation: "typographyAppear 7s ease-in-out infinite", animationDelay: "5s" }}>Medium</text>
+        <text className="typo-text" x="230" y="280" style={{ fontSize: "14px", fontWeight: "400", animation: "typographyAppear 7s ease-in-out infinite", animationDelay: "5.2s" }}>Regular</text>
 
         {/* Title */}
         <text x="200" y="370" style={{ fontSize: "16px", fill: "var(--ink-soft)", textAnchor: "middle", fontFamily: "Baloo 2, sans-serif" }}>Brand Identity</text>

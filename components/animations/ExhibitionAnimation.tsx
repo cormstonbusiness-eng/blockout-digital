@@ -97,17 +97,17 @@ export default function ExhibitionAnimation() {
         <rect width="400" height="400" fill="var(--paper)" />
 
         {/* Sketch lines (concept phase) */}
-        <line class="sketch-line" x1="50" y1="100" x2="150" y2="100" />
-        <line class="sketch-line" x1="50" y1="130" x2="200" y2="130" />
-        <line class="sketch-line" x1="50" y1="160" x2="180" y2="160" />
-        <path class="sketch-line" d="M 100 100 Q 100 200, 50 250" />
+        <line className="sketch-line" x1="50" y1="100" x2="150" y2="100" />
+        <line className="sketch-line" x1="50" y1="130" x2="200" y2="130" />
+        <line className="sketch-line" x1="50" y1="160" x2="180" y2="160" />
+        <path className="sketch-line" d="M 100 100 Q 100 200, 50 250" />
 
         {/* 3D Model shapes */}
-        <rect class="model-shape model-shape-1" x="80" y="120" width="120" height="100" rx="8" style={{ animation: "modelBuild 7s ease-in-out infinite", animationDelay: "3.5s" }} />
-        <polygon class="model-shape model-shape-2" points="140,80 200,120 200,200 140,160" style={{ animation: "modelBuild 7s ease-in-out infinite", animationDelay: "4s" }} fill="var(--orange)" opacity="0.7" />
+        <rect className="model-shape model-shape-1" x="80" y="120" width="120" height="100" rx="8" style={{ animation: "modelBuild 7s ease-in-out infinite", animationDelay: "3.5s" }} />
+        <polygon className="model-shape model-shape-2" points="140,80 200,120 200,200 140,160" style={{ animation: "modelBuild 7s ease-in-out infinite", animationDelay: "4s" }} fill="var(--orange)" opacity="0.7" />
 
         {/* Stand/Booth final */}
-        <g class="stand-final">
+        <g className="stand-final">
           <rect x="60" y="240" width="280" height="120" rx="8" fill="var(--ink)" stroke="var(--ink)" strokeWidth="2" />
           <rect x="80" y="200" width="80" height="40" rx="4" fill="var(--orange)" />
           <rect x="240" y="200" width="80" height="40" rx="4" fill="var(--orange)" />

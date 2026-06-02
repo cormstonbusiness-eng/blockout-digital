@@ -118,29 +118,29 @@ export default function WebsitesAnimation() {
         <rect width="400" height="400" fill="var(--paper)" />
 
         {/* Box 1 - Design */}
-        <rect class="workflow-box" x="30" y="150" width="70" height="100" rx="8" />
-        <text class="workflow-label" x="65" y="210">1</text>
+        <rect className="workflow-box" x="30" y="150" width="70" height="100" rx="8" />
+        <text className="workflow-label" x="65" y="210">1</text>
 
         {/* Arrow 1 */}
-        <path class="arrow" d="M 110 195 L 150 195" />
+        <path className="arrow" d="M 110 195 L 150 195" />
 
         {/* Box 2 - Code */}
-        <rect class="workflow-box" x="160" y="150" width="70" height="100" rx="8" />
-        <text class="workflow-label" x="195" y="210">2</text>
+        <rect className="workflow-box" x="160" y="150" width="70" height="100" rx="8" />
+        <text className="workflow-label" x="195" y="210">2</text>
 
         {/* Arrow 2 */}
-        <path class="arrow" d="M 240 195 L 280 195" />
+        <path className="arrow" d="M 240 195 L 280 195" />
 
         {/* Box 3 - Test */}
-        <rect class="workflow-box" x="290" y="150" width="70" height="100" rx="8" />
-        <text class="workflow-label" x="325" y="210">3</text>
+        <rect className="workflow-box" x="290" y="150" width="70" height="100" rx="8" />
+        <text className="workflow-label" x="325" y="210">3</text>
 
         {/* Box 4 - Launch */}
-        <rect class="workflow-box" x="160" y="280" width="70" height="100" rx="8" />
-        <text class="workflow-label" x="195" y="340">4</text>
+        <rect className="workflow-box" x="160" y="280" width="70" height="100" rx="8" />
+        <text className="workflow-label" x="195" y="340">4</text>
 
         {/* Connecting arrow (downward) */}
-        <path class="arrow" d="M 325 250 Q 325 265, 195 265 Q 195 280, 195 300" />
+        <path className="arrow" d="M 325 250 Q 325 265, 195 265 Q 195 280, 195 300" />
 
         {/* Labels */}
         <text x="65" y="90" style={{ fontSize: "16px", fill: "var(--ink-soft)", textAnchor: "middle", fontFamily: "Baloo 2, sans-serif" }}>Design</text>
