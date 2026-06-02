@@ -44,10 +44,10 @@ export default function Contact() {
 
     const newErrors: Record<string, string> = {};
 
-    if (!formData.name.trim()) newErrors.name = "Don't leave us hanging!";
-    if (!formData.email.trim()) newErrors.email = "Don't leave us hanging!";
+    if (!formData.name.trim()) newErrors.name = "Don't leave me hanging!";
+    if (!formData.email.trim()) newErrors.email = "Don't leave me hanging!";
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) newErrors.email = "Hmm, check that email?";
-    if (!formData.message.trim()) newErrors.message = "Don't leave us hanging!";
+    if (!formData.message.trim()) newErrors.message = "Don't leave me hanging!";
 
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
@@ -115,7 +115,7 @@ export default function Contact() {
               something <span className="text-orange">bold.</span>
             </h1>
             <p className="lead reveal" data-d="2" style={{ maxWidth: "42ch" }}>
-              Tell us what you're dreaming up. We read every message and reply within one working day – no bots, no runaround.
+              Tell me what you're dreaming up. I read every message and reply within one working day – no bots, no runaround.
             </p>
 
             <div className="stack-md reveal" data-d="3" style={{ marginTop: "36px" }}>
@@ -153,7 +153,7 @@ export default function Contact() {
             {!submitted ? (
               <div className="card" id="form-card" style={{ padding: "38px" }}>
                 <h2 className="h-md" style={{ marginBottom: "6px" }}>
-                  Tell us about it
+                  Tell me about it
                 </h2>
                 <p style={{ color: "var(--ink-soft)", marginBottom: "26px" }}>
                   Fields with <span className="text-orange" style={{ fontWeight: 800 }}>*</span> are required.
@@ -252,7 +252,7 @@ export default function Contact() {
 
                   <div className={`field ${errors.message ? "field--err" : ""}`}>
                     <label>
-                      Tell us the plan <span className="req">*</span>
+                      Tell me the plan <span className="req">*</span>
                     </label>
                     <textarea
                       name="message"
@@ -278,7 +278,7 @@ export default function Contact() {
               <div className="card card--orange" id="form-success" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", gap: "18px", padding: "48px 30px", minHeight: "420px" }}>
                 <h2 className="h-lg text-paper">Boom – message sent!</h2>
                 <p style={{ maxWidth: "38ch", opacity: ".95" }}>
-                  Thanks for reaching out. One of the crew will get back to you within one working day. Time to build something brilliant.
+                  Thanks for reaching out. I'll get back to you within one working day. Time to build something brilliant.
                 </p>
                 <Link href="/" className="btn btn--paper btn--lg" data-magnetic>
                   Back to home <span className="arr">→</span>

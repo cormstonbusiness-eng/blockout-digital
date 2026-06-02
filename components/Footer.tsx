@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
           <div className="footer__col">
             <h4>Studio</h4>
-            <Link href="/about">About us</Link>
+            <Link href="/about">About me</Link>
             <Link href="/services">Services</Link>
             <Link href="/portfolio">Work</Link>
           </div>

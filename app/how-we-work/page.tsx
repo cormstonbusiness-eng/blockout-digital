@@ -30,12 +30,12 @@ export default function HowWeWork() {
         ></div>
 
         <div className="wrap center" style={{ position: "relative", zIndex: 2 }}>
-          <span className="eyebrow reveal">Our process</span>
+          <span className="eyebrow reveal">My process</span>
           <h1 className="display h-xl reveal" data-d="1" style={{ margin: "14px 0 28px", maxWidth: "20ch" }}>
             Top-tier design, <span className="text-orange">without the price tag.</span>
           </h1>
           <p className="lead reveal" style={{ maxWidth: "60ch", margin: "0 auto 48px" }}>
-            We believe great design shouldn't cost a fortune. By combining strategic thinking with streamlined processes, we deliver premium websites and branding that rival agencies charging 3x more.
+            I believe great design shouldn't cost a fortune. By combining strategic thinking with streamlined processes, I deliver premium websites and branding that rival agencies charging 3x more.
           </p>
         </div>
       </section>
@@ -44,7 +44,7 @@ export default function HowWeWork() {
       <section className="section-pad" style={{ background: "var(--paper-warm)", borderBlock: "3px solid var(--ink)" }}>
         <div className="wrap">
           <div className="reveal" style={{ marginBottom: "48px" }}>
-            <span className="eyebrow">The blockout approach</span>
+            <span className="eyebrow">My blockout approach</span>
             <h2 className="h-xl" style={{ marginTop: "14px", maxWidth: "24ch" }}>
               Strategy first, <span className="text-orange">fluff never.</span>
             </h2>
@@ -52,22 +52,22 @@ export default function HowWeWork() {
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "54px", alignItems: "start" }}>
             <div className="reveal" data-d="1">
-              <h3 className="h-md" style={{ marginBottom: "16px" }}>We start with understanding</h3>
+              <h3 className="h-md" style={{ marginBottom: "16px" }}>I start with understanding</h3>
               <p style={{ color: "var(--ink-soft)", lineHeight: "1.7", marginBottom: "24px" }}>
-                No cookie-cutter templates. We dive deep into your brand, your market, and your goals. We ask the hard questions so we understand exactly what you're trying to achieve. This strategic foundation means every design decision matters.
+                No cookie-cutter templates. I dive deep into your brand, your market, and your goals. I ask the hard questions so I understand exactly what you're trying to achieve. This strategic foundation means every design decision matters.
               </p>
               <p style={{ color: "var(--ink-soft)", lineHeight: "1.7" }}>
-                This upfront clarity saves time, prevents revisions, and ensures we're building the right thing – not just a pretty thing.
+                This upfront clarity saves time, prevents revisions, and ensures I'm building the right thing – not just a pretty thing.
               </p>
             </div>
 
             <div className="reveal" data-d="2">
-              <h3 className="h-md" style={{ marginBottom: "16px" }}>We eliminate waste</h3>
+              <h3 className="h-md" style={{ marginBottom: "16px" }}>I eliminate waste</h3>
               <p style={{ color: "var(--ink-soft)", lineHeight: "1.7", marginBottom: "24px" }}>
-                Many agencies waste months in unnecessary meetings, design explorations, and over-engineering. We don't. We've refined our process to focus on what actually moves the needle: research, strategy, and execution.
+                Many agencies waste months in unnecessary meetings, design explorations, and over-engineering. I don't. I've refined my process to focus on what actually moves the needle: research, strategy, and execution.
               </p>
               <p style={{ color: "var(--ink-soft)", lineHeight: "1.7" }}>
-                Fewer cooks in the kitchen means faster turnarounds and lower overhead – savings we pass directly to you.
+                Working solo means faster turnarounds and lower overhead – savings I pass directly to you.
               </p>
             </div>
           </div>
@@ -93,7 +93,7 @@ export default function HowWeWork() {
             </div>
 
             <div className="reveal" data-d="2" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "28px", boxShadow: "var(--shadow-pop)" }}>
-              <h3 className="h-md" style={{ margin: "0 0 12px", color: "var(--orange)" }}>All skills, one studio</h3>
+              <h3 className="h-md" style={{ margin: "0 0 12px", color: "var(--orange)" }}>All skills, one designer</h3>
               <p style={{ margin: 0, color: "var(--ink-soft)", lineHeight: "1.6", fontSize: "0.95rem" }}>
                 Web design, branding, marketing, 3D, SEO – all handled in-house by someone who understands the entire ecosystem. No subcontracting, no marking up freelance work.
               </p>
@@ -102,7 +102,7 @@ export default function HowWeWork() {
             <div className="reveal" data-d="3" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "28px", boxShadow: "var(--shadow-pop)" }}>
               <h3 className="h-md" style={{ margin: "0 0 12px", color: "var(--orange)" }}>Selective projects</h3>
               <p style={{ margin: 0, color: "var(--ink-soft)", lineHeight: "1.6", fontSize: "0.95rem" }}>
-                We're picky about who we work with. That means we're fully invested in your success, not juggling 20 clients. Better work, lower costs, faster delivery.
+                I'm picky about who I work with. That means I'm fully invested in your success, not juggling multiple projects. Better work, lower costs, faster delivery.
               </p>
             </div>
           </div>
@@ -113,7 +113,7 @@ export default function HowWeWork() {
       <section className="section-pad" style={{ background: "var(--paper-warm)", borderTop: "3px solid var(--ink)" }}>
         <div className="wrap">
           <div className="reveal" style={{ marginBottom: "48px", maxWidth: "55ch" }}>
-            <span className="eyebrow">Your journey with us</span>
+            <span className="eyebrow">Your journey with me</span>
             <h2 className="h-xl" style={{ marginTop: "14px" }}>
               From idea to <span className="text-orange">launch.</span>
             </h2>
@@ -162,7 +162,7 @@ export default function HowWeWork() {
                 <div>
                   <h3 className="h-md" style={{ margin: "0 0 8px" }}>Support & Growth</h3>
                   <p style={{ margin: 0, color: "var(--ink-soft)", lineHeight: "1.6" }}>
-                    Launch is the beginning. We're here for support, optimization, and helping you grow. Your success is our success.
+                    Launch is the beginning. I'm here for support, optimization, and helping you grow. Your success is my success.
                   </p>
                 </div>
               </div>

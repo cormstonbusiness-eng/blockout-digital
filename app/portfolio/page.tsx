@@ -31,18 +31,18 @@ export default function Portfolio() {
 
         <div className="wrap center" style={{ position: "relative", zIndex: 2 }}>
           <div className="reveal">
-            <span className="eyebrow">Our work</span>
+            <span className="eyebrow">My work</span>
             <h1 className="display h-xl reveal" data-d="1" style={{ margin: "14px 0 28px", maxWidth: "26ch" }}>
               Portfolio <span className="text-orange">coming soon.</span>
             </h1>
           </div>
           <p className="lead reveal" style={{ maxWidth: "60ch", marginBottom: "48px", margin: "0 auto 48px" }}>
-            We're being intentional about the work we showcase and the relationships we build. Right now, we're focused on forging meaningful partnerships with brands that share our vision for bold, uncompromising design. We're looking for people who are ready to invest in something special – teams that trust the process and understand that great work takes vision, strategy, and commitment.
+            I'm being intentional about the work I showcase and the relationships I build. Right now, I'm focused on forging meaningful partnerships with brands that share my vision for bold, uncompromising design. I'm looking for partners who are ready to invest in something special – brands that trust the process and understand that great work takes vision, strategy, and commitment.
           </p>
           <div className="reveal" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "48px", boxShadow: "var(--shadow-pop)", maxWidth: "550px", margin: "0 auto" }}>
             <h3 className="h-md" style={{ margin: "0 0 16px" }}>Ready to build something unmissable?</h3>
             <p style={{ color: "var(--ink-soft)", margin: "0 0 24px", lineHeight: "1.6" }}>
-              If you're serious about creating work that stops people in their tracks, let's talk about your vision. We're selective about who we work with, and we're looking for partners ready to do bold work.
+              If you're serious about creating work that stops people in their tracks, let's talk about your vision. I'm selective about who I work with, and I'm looking for partners ready to do bold work.
             </p>
             <Link href="/contact" className="btn btn--lg" data-magnetic style={{ display: "inline-block" }}>
               Start a project <span className="arr">→</span>

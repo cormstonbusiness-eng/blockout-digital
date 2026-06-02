@@ -7,12 +7,12 @@ export default function Services() {
       <section className="section-pad" style={{ paddingBottom: "30px", position: "relative", overflow: "hidden" }}>
         <div className="blob" data-parallax="30" style={{ width: "160px", height: "160px", top: "12%", right: "6%" }}></div>
         <div className="wrap" style={{ position: "relative", zIndex: 2 }}>
-          <span className="eyebrow reveal">Five services, one team</span>
+          <span className="eyebrow reveal">Five services from one designer</span>
           <h1 className="display h-hero reveal" data-d="1" style={{ marginTop: "16px", maxWidth: "16ch" }}>
             Everything you need to <span className="text-orange">stand out.</span>
           </h1>
           <p className="lead reveal" data-d="2" style={{ marginTop: "24px", maxWidth: "54ch" }}>
-            No juggling five agencies. We build the whole thing under one roof – joined-up, on-brand and built to perform.
+            No juggling five agencies. I build the whole thing – joined-up, on-brand and built to perform.
           </p>
           <div className="tag-row reveal" data-d="3" style={{ marginTop: "26px" }}>
             <Link href="#websites" className="pill">01 Websites</Link>

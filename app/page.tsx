@@ -17,7 +17,7 @@ export default function Home() {
                 letterSpacing: "-.02em",
               }}
             >
-              HELLO, WE'RE <span className="text-orange">BLOCKOUT.</span>
+              HELLO, I'M <span className="text-orange">BLOCKOUT.</span>
             </h1>
             <p className="lead mx-auto reveal" data-d="3" style={{ maxWidth: "50ch" }}>
               A full-service design studio for brands that would rather be loved than tolerated.
@@ -124,7 +124,7 @@ export default function Home() {
             </p>
           </div>
           <div className="reveal" data-d="1" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "36px", boxShadow: "var(--shadow-pop)" }}>
-            <h3 className="h-md" style={{ margin: "0 0 16px" }}>What we deliver</h3>
+            <h3 className="h-md" style={{ margin: "0 0 16px" }}>What I deliver</h3>
             <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--ink-soft)", lineHeight: "1.8" }}>
               <li>Websites</li>
               <li>Brand identity & strategy</li>
@@ -177,7 +177,7 @@ export default function Home() {
             className="reveal"
           >
             <div>
-              <span className="eyebrow">Five things we're great at</span>
+              <span className="eyebrow">Five things I'm great at</span>
               <h2 className="h-xl" style={{ marginTop: "14px" }}>
                 Pick a <span className="text-orange">block.</span>
               </h2>
@@ -188,7 +188,7 @@ export default function Home() {
           </div>
 
           <p className="lead reveal" style={{ maxWidth: "65ch", marginTop: "32px", color: "var(--ink-soft)" }}>
-            Each of our core services works independently or together as part of a complete brand ecosystem. We don't believe in one-size-fits-all solutions – we take time to understand your vision and goals.
+            All of my core services work independently or together as part of a complete brand ecosystem. I don't believe in one-size-fits-all solutions – I take time to understand your vision and goals.
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "28px", marginTop: "48px" }}>
@@ -309,9 +309,9 @@ export default function Home() {
           </div>
 
           <div style={{ marginTop: "54px", padding: "36px", background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", boxShadow: "var(--shadow-pop)" }} className="reveal" data-d="1">
-            <h3 className="h-md" style={{ margin: "0 0 16px" }}>Our approach</h3>
+            <h3 className="h-md" style={{ margin: "0 0 16px" }}>My approach</h3>
             <p style={{ margin: 0, fontSize: "1.05rem", lineHeight: "1.7", color: "var(--ink-soft)" }}>
-              Our approach combines creative boldness with strategic thinking. Every design decision is made with intention and purpose, ensuring that your investment drives real business results. Whether you need a stunning website that converts, a distinctive brand identity, targeted marketing campaigns, an impactful physical space, or photorealistic 3D visualizations – we bring expertise, dedication, and uncompromising standards to every project.
+              My approach combines creative boldness with strategic thinking. Every design decision is made with intention and purpose, ensuring that your investment drives real business results. Whether you need a stunning website that converts, a distinctive brand identity, targeted marketing campaigns, an impactful physical space, or photorealistic 3D visualizations – I bring expertise, dedication, and uncompromising standards to every project.
             </p>
           </div>
         </div>
@@ -321,13 +321,13 @@ export default function Home() {
       <section className="section-pad">
         <div className="wrap center">
           <span className="eyebrow reveal mx-auto" style={{ justifyContent: "center" }}>
-            Why teams pick us
+            Why brands pick me
           </span>
           <h2 className="h-xl reveal mx-auto" data-d="1" style={{ margin: "14px auto 28px", maxWidth: "16ch" }}>
             Big-agency thinking. No big-agency nonsense.
           </h2>
           <p className="lead reveal" style={{ maxWidth: "65ch", margin: "0 auto" }}>
-            Working with Blockout Digital means partnering with a studio that combines creative excellence with strategic vision. We bring the caliber of thinking you'd expect from a large agency, without the bureaucracy, inflated costs, or diluted attention. Here's what sets us apart.
+            Working with Blockout Digital means partnering with a designer who combines creative excellence with strategic vision. I bring the caliber of thinking you'd expect from a large agency, without the bureaucracy, inflated costs, or diluted attention. Here's what sets me apart.
           </p>
         </div>
         <div className="wrap grid-3" style={{ marginTop: "54px" }}>
@@ -384,7 +384,7 @@ export default function Home() {
             </h2>
           </div>
           <p className="lead reveal" style={{ maxWidth: "55ch", marginBottom: "48px" }}>
-            We're actively crafting bold work across branding, web design, digital marketing, exhibition spaces, and 3D visualization. Each project represents our commitment to uncompromising design standards and strategic thinking.
+            I'm actively crafting bold work across branding, web design, digital marketing, exhibition spaces, and 3D visualization. Each project represents my commitment to uncompromising design standards and strategic thinking.
           </p>
           <div className="reveal" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "48px", boxShadow: "var(--shadow-pop)", maxWidth: "500px", margin: "0 auto" }}>
             <h3 className="h-md" style={{ margin: "0 0 16px" }}>Let's start your blockout</h3>
@@ -420,7 +420,7 @@ export default function Home() {
               </div>
             </div>
             <div className="reveal" data-d="1">
-              <h3 className="h-md" style={{ marginBottom: "20px" }}>Share our work</h3>
+              <h3 className="h-md" style={{ marginBottom: "20px" }}>Share my work</h3>
               <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
                 Know someone who needs bold design? Share Blockout Digital with your network on social media.
               </p>
