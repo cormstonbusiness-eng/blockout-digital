@@ -103,26 +103,26 @@ export default function Services() {
         <div className="wrap svc">
           <div className="reveal">
             <div className="display" style={{ fontSize: "clamp(3rem,7vw,6rem)", color: "var(--orange)", lineHeight: ".8" }}>03</div>
-            <h2 className="h-xl" style={{ margin: "10px 0 16px" }}>Digital Marketing</h2>
-            <p className="lead" style={{ marginBottom: "18px" }}>Get seen by the right humans. Campaigns that earn attention and drive real results.</p>
+            <h2 className="h-xl" style={{ margin: "10px 0 16px" }}>Social Media Marketing</h2>
+            <p className="lead" style={{ marginBottom: "18px" }}>Content that gets noticed. Strategic posts and creative assets that build your audience and drive engagement.</p>
             <ul style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px 20px" }}>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Paid social & search
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Content strategy
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>SEO & content
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Social media posts
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Email & CRM
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Graphics & templates
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Social & creative
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Content creation
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Analytics
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Community management
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Always-on growth
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Growth planning
               </li>
             </ul>
             <Link href="/contact" className="btn" data-magnetic style={{ marginTop: "26px" }}>

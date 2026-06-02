@@ -241,9 +241,9 @@ export default function Home() {
                 gap: "12px",
               }}
             >
-              <h3 className="h-md" style={{ margin: 0 }}>Digital Marketing</h3>
+              <h3 className="h-md" style={{ margin: 0 }}>Social Media Marketing</h3>
               <p style={{ margin: 0, fontSize: "0.95rem", lineHeight: "1.5" }}>
-                Strategic campaigns that get you seen by the right audience.
+                Content that stops the scroll and builds your audience on social.
               </p>
             </Link>
             <Link

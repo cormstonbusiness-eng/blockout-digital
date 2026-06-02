@@ -26,7 +26,7 @@ export default function About() {
             <h3 className="h-md">Craig Ormston</h3>
             <p style={{ color: "var(--orange)", fontWeight: 700, marginBottom: "12px" }}>Founder, Designer & Developer</p>
             <p style={{ color: "var(--ink-soft)", fontSize: "0.95rem", lineHeight: "1.6" }}>
-              Architectural Visualization, CAD Design, Exhibition Design, 3D Rendering, Construction Documentation, Web Design, SEO, Digital Marketing & Full-Stack Strategy.
+              Architectural Visualization, CAD Design, Exhibition Design, 3D Rendering, Construction Documentation, Web Design, SEO, Social Media Marketing & Full-Stack Strategy.
             </p>
           </div>
         </div>

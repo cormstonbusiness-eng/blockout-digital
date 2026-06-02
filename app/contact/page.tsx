@@ -215,7 +215,7 @@ export default function Contact() {
                   <div className="field">
                     <label>What do you need? <span style={{ color: "var(--ink-soft)", fontWeight: 600, fontSize: ".9rem" }}>(pick any)</span></label>
                     <div className="chips">
-                      {["Website", "Branding", "Marketing", "Exhibition", "3D Design"].map((service) => (
+                      {["Website", "Branding", "Social Media", "Exhibition", "3D Design"].map((service) => (
                         <button
                           key={service}
                           type="button"
