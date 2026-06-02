@@ -22,6 +22,10 @@ export const metadata: Metadata = {
   title: "Blockout Digital — A design agency that refuses to be boring",
   description:
     "Blockout Digital is a design agency doing websites, branding, digital marketing, exhibition design and 3D. Every great project starts with a Blockout.",
+  icons: {
+    icon: "/logo-black.png",
+    apple: "/logo-black.png",
+  },
 };
 
 export default function RootLayout({
