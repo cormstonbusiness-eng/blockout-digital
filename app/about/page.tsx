@@ -3,49 +3,31 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-      {/* PAGE HERO */}
-      <section className="section-pad" style={{ paddingBottom: "40px", position: "relative", overflow: "hidden" }}>
+      {/* HERO - CRAIG PORTRAIT */}
+      <section className="section-pad" style={{ position: "relative", overflow: "hidden" }}>
         <div className="blob" data-parallax="34" style={{ width: "180px", height: "180px", top: "8%", right: "4%", opacity: ".9" }}></div>
         <div className="blob" data-parallax="-26" style={{ width: "90px", height: "90px", bottom: 0, left: "6%", background: "var(--ink)", animationDelay: "-2s" }}></div>
-        <div className="wrap" style={{ position: "relative", zIndex: 2 }}>
-          <span className="eyebrow reveal">Our story</span>
-          <h1 className="display h-hero reveal" data-d="1" style={{ marginTop: "16px", maxWidth: "20ch" }}>
-            From rough drafts to <span className="text-orange">real work.</span>
-          </h1>
-          <p className="lead reveal" data-d="2" style={{ marginTop: "24px", maxWidth: "56ch" }}>
-            Blockout Digital is built on 11 years of creative experience across multiple industries. Every role, every challenge, every project – they were all blockouts. Now it's time for the final piece.
-          </p>
-        </div>
-      </section>
-
-      {/* CRAIG */}
-      <section className="section-pad">
-        <div className="wrap" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "54px", alignItems: "start" }}>
-          <div className="reveal">
-            <span className="eyebrow">Meet Craig</span>
-            <h2 className="h-lg" style={{ marginTop: "16px", marginBottom: "24px" }}>
-              11 years. Multiple industries. One vision.
-            </h2>
-            <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
+        <div className="wrap" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "54px", alignItems: "center", position: "relative", zIndex: 2 }}>
+          <div>
+            <span className="eyebrow reveal">Meet Craig</span>
+            <h1 className="display h-lg reveal" data-d="1" style={{ marginTop: "16px", marginBottom: "24px" }}>
+              11 years. Multiple <span className="text-orange">industries.</span>
+            </h1>
+            <p className="lead reveal" data-d="2" style={{ marginBottom: "20px", lineHeight: "1.7" }}>
               Craig Ormston is the founder and sole operator of Blockout Digital. A journey that started in architectural visualization evolved into something much bigger – a multifaceted career spanning 3D visualization, CAD design, exhibition design, and self-taught web development and digital strategy.
             </p>
-            <p style={{ color: "var(--ink-soft)", marginBottom: "20px", lineHeight: "1.7" }}>
-              That range isn't a scattered résumé – it's the foundation of everything. When you've designed for architects, engineered with CAD precision, built modular exhibition systems, and taught yourself web strategy from the ground up, you understand the full picture. You know how to design for reality. You understand technical constraints, budget limitations, and what actually gets built.
-            </p>
-            <p style={{ color: "var(--ink-soft)", lineHeight: "1.7" }}>
-              Every skill – from photorealistic 3D renders to technical construction drawings, from BeMatrix systems to SEO algorithms – is available on every project. You're not hiring a designer. You're partnering with someone who understands the entire process from concept through delivery.
+            <p className="lead reveal" data-d="3" style={{ marginBottom: "20px", lineHeight: "1.7", color: "var(--ink-soft)" }}>
+              That range isn't a scattered résumé – it's the foundation of everything. When you've designed for architects, engineered with CAD precision, built modular exhibition systems, and taught yourself web strategy from the ground up, you understand the full picture.
             </p>
           </div>
 
-          <div>
-            <div className="reveal" data-d="1">
-              <img src="/craig-portrait.jpg" alt="Craig Ormston" style={{ aspectRatio: "1/1", borderRadius: "var(--r-lg)", marginBottom: "20px", width: "100%", objectFit: "cover", border: "3px solid var(--ink)" }} />
-              <h3 className="h-md">Craig Ormston</h3>
-              <p style={{ color: "var(--orange)", fontWeight: 700, marginBottom: "12px" }}>Founder, Designer & Developer</p>
-              <p style={{ color: "var(--ink-soft)", fontSize: "0.95rem", lineHeight: "1.6" }}>
-                Architectural Visualization, CAD Design, Exhibition Design, 3D Rendering, Construction Documentation, Web Design, SEO, Digital Marketing & Full-Stack Strategy.
-              </p>
-            </div>
+          <div className="reveal" data-d="1">
+            <img src="/craig-portrait.jpg" alt="Craig Ormston" style={{ aspectRatio: "1/1", borderRadius: "var(--r-lg)", marginBottom: "20px", width: "100%", objectFit: "cover", border: "3px solid var(--ink)" }} />
+            <h3 className="h-md">Craig Ormston</h3>
+            <p style={{ color: "var(--orange)", fontWeight: 700, marginBottom: "12px" }}>Founder, Designer & Developer</p>
+            <p style={{ color: "var(--ink-soft)", fontSize: "0.95rem", lineHeight: "1.6" }}>
+              Architectural Visualization, CAD Design, Exhibition Design, 3D Rendering, Construction Documentation, Web Design, SEO, Digital Marketing & Full-Stack Strategy.
+            </p>
           </div>
         </div>
       </section>
