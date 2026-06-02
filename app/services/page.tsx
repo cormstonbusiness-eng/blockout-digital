@@ -298,10 +298,164 @@ export default function Services() {
         </div>
       </section>
 
+      {/* WEB DEVELOPMENT PRICING */}
+      <section className="section-pad">
+        <div className="wrap">
+          <div className="reveal center" style={{ marginBottom: "48px" }}>
+            <span className="eyebrow" style={{ justifyContent: "center" }}>Web development packages</span>
+            <h2 className="h-xl" style={{ marginTop: "14px", marginBottom: "20px" }}>
+              Three ways to <span className="text-orange">build online.</span>
+            </h2>
+            <p className="lead" style={{ maxWidth: "60ch", margin: "0 auto", color: "var(--ink-soft)" }}>
+              All packages include hosting, maintenance, and ongoing support. Choose the right fit for where you are now – upgrade later as you grow.
+            </p>
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "32px" }}>
+            {/* BASIC - LAUNCH */}
+            <div className="reveal" data-d="1" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "40px", boxShadow: "var(--shadow-pop)", display: "flex", flexDirection: "column" }}>
+              <div style={{ marginBottom: "24px" }}>
+                <h3 className="h-md" style={{ margin: "0 0 8px" }}>Launch</h3>
+                <p style={{ color: "var(--orange)", fontWeight: 700, margin: 0, fontSize: "1.1rem" }}>Basic</p>
+              </div>
+
+              <div style={{ marginBottom: "32px", paddingBottom: "32px", borderBottom: "2px solid var(--paper-warm)" }}>
+                <p style={{ margin: "0 0 8px", color: "var(--ink-soft)", fontSize: "0.9rem" }}>One-off build</p>
+                <div style={{ fontSize: "2rem", fontWeight: 700, color: "var(--ink)" }}>£500</div>
+              </div>
+
+              <div style={{ marginBottom: "32px" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.9rem", fontWeight: 600, margin: "0 0 12px" }}>Monthly hosting & maintenance</p>
+                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--ink)" }}>£25<span style={{ fontSize: "0.9rem", color: "var(--ink-soft)", fontWeight: 400 }}>/mo</span></div>
+              </div>
+
+              <div style={{ marginBottom: "24px" }}>
+                <h4 style={{ fontSize: "0.95rem", fontWeight: 600, margin: "0 0 12px", color: "var(--ink)" }}>What you get</h4>
+                <ul style={{ margin: 0, paddingLeft: 0, listStyle: "none", fontSize: "0.9rem", color: "var(--ink-soft)", lineHeight: "1.8" }}>
+                  <li style={{ marginBottom: "8px" }}>✓ Up to 5 pages</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Responsive design</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Contact form</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Basic SEO</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Google Analytics</li>
+                  <li style={{ marginBottom: "8px" }}>✓ 1 revision round</li>
+                </ul>
+              </div>
+
+              <div style={{ paddingTop: "24px", borderTop: "2px solid var(--paper-warm)", marginTop: "auto" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.85rem", margin: 0 }}>Best for: Local businesses, portfolios, brochure sites</p>
+              </div>
+
+              <div style={{ marginTop: "24px" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.85rem", margin: "0 0 12px" }}>Monthly covers:</p>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.85rem", margin: 0, lineHeight: "1.6" }}>Vercel hosting, SSL, custom domain, uptime monitoring, security updates, up to 30 min content tweaks/mo</p>
+              </div>
+            </div>
+
+            {/* MEDIUM - GROW */}
+            <div className="reveal" data-d="2" style={{ background: "#fff", border: "3px solid var(--orange)", borderRadius: "var(--r-lg)", padding: "40px", boxShadow: "var(--shadow-pop)", display: "flex", flexDirection: "column", position: "relative", transform: "scale(1.05)" }}>
+              <div style={{ position: "absolute", top: "-12px", left: "20px", background: "var(--orange)", color: "#fff", padding: "4px 12px", borderRadius: "var(--r-sm)", fontSize: "0.8rem", fontWeight: 700 }}>POPULAR</div>
+
+              <div style={{ marginBottom: "24px" }}>
+                <h3 className="h-md" style={{ margin: "0 0 8px" }}>Grow</h3>
+                <p style={{ color: "var(--orange)", fontWeight: 700, margin: 0, fontSize: "1.1rem" }}>Medium</p>
+              </div>
+
+              <div style={{ marginBottom: "32px", paddingBottom: "32px", borderBottom: "2px solid var(--paper-warm)" }}>
+                <p style={{ margin: "0 0 8px", color: "var(--ink-soft)", fontSize: "0.9rem" }}>One-off build</p>
+                <div style={{ fontSize: "2rem", fontWeight: 700, color: "var(--ink)" }}>from £750</div>
+              </div>
+
+              <div style={{ marginBottom: "32px" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.9rem", fontWeight: 600, margin: "0 0 12px" }}>Monthly hosting & maintenance</p>
+                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--ink)" }}>£45<span style={{ fontSize: "0.9rem", color: "var(--ink-soft)", fontWeight: 400 }}>/mo</span></div>
+              </div>
+
+              <div style={{ marginBottom: "24px" }}>
+                <h4 style={{ fontSize: "0.95rem", fontWeight: 600, margin: "0 0 12px", color: "var(--ink)" }}>What you get</h4>
+                <ul style={{ margin: 0, paddingLeft: 0, listStyle: "none", fontSize: "0.9rem", color: "var(--ink-soft)", lineHeight: "1.8" }}>
+                  <li style={{ marginBottom: "8px" }}>✓ Everything in Basic, plus:</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Up to 10 pages</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Self-editable CMS/blog</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Advanced SEO</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Newsletter signup</li>
+                  <li style={{ marginBottom: "8px" }}>✓ 1 Supabase feature</li>
+                  <li style={{ marginBottom: "8px" }}>✓ 2 revision rounds</li>
+                </ul>
+              </div>
+
+              <div style={{ paddingTop: "24px", borderTop: "2px solid var(--paper-warm)", marginTop: "auto" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.85rem", margin: 0 }}>Best for: Growing businesses with content & data</p>
+              </div>
+
+              <div style={{ marginTop: "24px" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.85rem", margin: "0 0 12px" }}>Monthly covers:</p>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.85rem", margin: 0, lineHeight: "1.6" }}>All Basic + Supabase Pro, up to 1.5 hrs updates/mo, monthly performance & SEO check</p>
+              </div>
+            </div>
+
+            {/* HIGH - COMMERCE */}
+            <div className="reveal" data-d="3" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "40px", boxShadow: "var(--shadow-pop)", display: "flex", flexDirection: "column" }}>
+              <div style={{ marginBottom: "24px" }}>
+                <h3 className="h-md" style={{ margin: "0 0 8px" }}>Commerce</h3>
+                <p style={{ color: "var(--orange)", fontWeight: 700, margin: 0, fontSize: "1.1rem" }}>High</p>
+              </div>
+
+              <div style={{ marginBottom: "32px", paddingBottom: "32px", borderBottom: "2px solid var(--paper-warm)" }}>
+                <p style={{ margin: "0 0 8px", color: "var(--ink-soft)", fontSize: "0.9rem" }}>One-off build</p>
+                <div style={{ fontSize: "2rem", fontWeight: 700, color: "var(--ink)" }}>from £1,500</div>
+              </div>
+
+              <div style={{ marginBottom: "32px" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.9rem", fontWeight: 600, margin: "0 0 12px" }}>Monthly hosting & maintenance</p>
+                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--ink)" }}>£90<span style={{ fontSize: "0.9rem", color: "var(--ink-soft)", fontWeight: 400 }}>/mo</span></div>
+              </div>
+
+              <div style={{ marginBottom: "24px" }}>
+                <h4 style={{ fontSize: "0.95rem", fontWeight: 600, margin: "0 0 12px", color: "var(--ink)" }}>What you get</h4>
+                <ul style={{ margin: 0, paddingLeft: 0, listStyle: "none", fontSize: "0.9rem", color: "var(--ink-soft)", lineHeight: "1.8" }}>
+                  <li style={{ marginBottom: "8px" }}>✓ Everything in Medium, plus:</li>
+                  <li style={{ marginBottom: "8px" }}>✓ 10+ pages as needed</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Full e-commerce</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Product catalogue & cart</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Stripe or Shopify</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Customer accounts</li>
+                  <li style={{ marginBottom: "8px" }}>✓ 3 revision rounds</li>
+                </ul>
+              </div>
+
+              <div style={{ paddingTop: "24px", borderTop: "2px solid var(--paper-warm)", marginTop: "auto" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.85rem", margin: 0 }}>Best for: Businesses selling online</p>
+              </div>
+
+              <div style={{ marginTop: "24px" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.85rem", margin: "0 0 12px" }}>Monthly covers:</p>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.85rem", margin: 0, lineHeight: "1.6" }}>All Medium + payment monitoring, priority support, up to 3 hrs updates/mo, monthly reports</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="reveal center" style={{ marginTop: "48px", padding: "36px", background: "var(--paper-warm)", borderRadius: "var(--r-lg)", border: "2px solid var(--ink-soft)" }}>
+            <p style={{ margin: 0, color: "var(--ink-soft)", fontSize: "1rem", lineHeight: "1.7" }}>
+              These are starting points. All projects are custom – timelines and pricing scale with scope and complexity. Want to discuss your specific needs?
+            </p>
+            <Link href="/contact" className="btn" data-magnetic style={{ marginTop: "20px" }}>
+              Let's talk pricing <span className="arr">→</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <style>{`
         .svc{ display:grid; grid-template-columns:1fr 1fr; gap:54px; align-items:center; }
         @media (max-width:780px){ .svc{ grid-template-columns:1fr; gap: 40px; } }
         @media (max-width:640px){ .svc{ gap: 28px; } }
+        @media (max-width:1024px){
+          [style*="grid-template-columns: repeat(3"]{ grid-template-columns: repeat(2, 1fr) !important; }
+        }
+        @media (max-width:640px){
+          [style*="grid-template-columns: repeat(3"]{ grid-template-columns: 1fr !important; }
+          [style*="transform: scale(1.05)"]{ transform: scale(1) !important; }
+        }
       `}</style>
     </>
   );
