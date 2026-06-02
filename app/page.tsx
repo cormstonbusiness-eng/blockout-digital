@@ -374,30 +374,6 @@ export default function Home() {
         </div>
       </section> */}
 
-      {/* WORK PREVIEW */}
-      <section className="section-pad">
-        <div className="wrap center">
-          <div className="reveal">
-            <span className="eyebrow">Coming soon</span>
-            <h2 className="h-xl reveal" style={{ margin: "14px 0 28px", maxWidth: "28ch" }}>
-              Our portfolio is <span className="text-orange">building.</span>
-            </h2>
-          </div>
-          <p className="lead reveal" style={{ maxWidth: "55ch", marginBottom: "48px" }}>
-            I'm actively crafting bold work across branding, web design, digital marketing, exhibition spaces, and 3D visualization. Each project represents my commitment to uncompromising design standards and strategic thinking.
-          </p>
-          <div className="reveal" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "48px", boxShadow: "var(--shadow-pop)", maxWidth: "500px", margin: "0 auto" }}>
-            <h3 className="h-md" style={{ margin: "0 0 16px" }}>Let's start your blockout</h3>
-            <p style={{ color: "var(--ink-soft)", margin: "0 0 24px", lineHeight: "1.6" }}>
-              Don't wait for the portfolio. If you're ready to build something bold, let's talk about your project today.
-            </p>
-            <Link href="/contact" className="btn btn--lg" data-magnetic style={{ display: "inline-block" }}>
-              Start a project <span className="arr">→</span>
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* RESOURCES & SHARING */}
       <section className="section-pad" style={{ background: "var(--paper-warm)", borderTop: "3px solid var(--ink)" }}>
         <div className="wrap">
