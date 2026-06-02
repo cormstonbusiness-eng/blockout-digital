@@ -73,22 +73,16 @@ export default function Services() {
             <p className="lead" style={{ marginBottom: "18px" }}>Identities people actually remember – from the big idea down to the last pixel.</p>
             <ul style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px 20px" }}>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Strategy & positioning
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Logo development
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Logo & identity
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Brand guideline development
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Visual systems
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Website branding
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Tone of voice
-              </li>
-              <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Guidelines
-              </li>
-              <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Brand collateral
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Social media branding
               </li>
             </ul>
             <Link href="/contact" className="btn" data-magnetic style={{ marginTop: "26px" }}>
