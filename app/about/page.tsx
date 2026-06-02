@@ -137,9 +137,7 @@ export default function About() {
 
           <div>
             <div className="reveal" data-d="1">
-              <div className="placeholder" style={{ aspectRatio: "1/1", borderRadius: "var(--r-lg)", marginBottom: "20px" }}>
-                <span>Craig Ormston Portrait</span>
-              </div>
+              <img src="/craig-portrait.jpg" alt="Craig Ormston" style={{ aspectRatio: "1/1", borderRadius: "var(--r-lg)", marginBottom: "20px", width: "100%", objectFit: "cover", border: "3px solid var(--ink)" }} />
               <h3 className="h-md">Craig Ormston</h3>
               <p style={{ color: "var(--orange)", fontWeight: 700, marginBottom: "12px" }}>Founder, Designer & Developer</p>
               <p style={{ color: "var(--ink-soft)", fontSize: "0.95rem", lineHeight: "1.6" }}>
