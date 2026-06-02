@@ -451,6 +451,123 @@ export default function Services() {
         </div>
       </section>
 
+      {/* SOCIAL MEDIA MANAGEMENT PRICING */}
+      <section className="section-pad bg-warm" style={{ borderTop: "3px solid var(--ink)" }}>
+        <div className="wrap">
+          <div className="reveal center" style={{ marginBottom: "48px" }}>
+            <span className="eyebrow" style={{ justifyContent: "center" }}>Social media management</span>
+            <h2 className="h-xl" style={{ marginTop: "14px", marginBottom: "20px" }}>
+              Grow your <span className="text-orange">social presence.</span>
+            </h2>
+            <p className="lead" style={{ maxWidth: "60ch", margin: "0 auto", color: "var(--ink-soft)" }}>
+              Monthly retainers that handle content creation, posting, and community management. From consistent presence to owning your space – choose the growth stage that fits your brand.
+            </p>
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "32px" }}>
+            {/* SPARK */}
+            <div className="reveal" data-d="1" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "40px", boxShadow: "var(--shadow-pop)", display: "flex", flexDirection: "column" }}>
+              <div style={{ marginBottom: "24px" }}>
+                <h3 className="h-md" style={{ margin: "0 0 8px" }}>Spark</h3>
+                <p style={{ color: "var(--ink-soft)", fontWeight: 400, margin: 0, fontSize: "0.9rem" }}>Essential presence</p>
+              </div>
+
+              <div style={{ marginBottom: "32px", paddingBottom: "32px", borderBottom: "2px solid var(--paper-warm)" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.9rem", fontWeight: 600, margin: "0 0 8px" }}>Monthly retainer</p>
+                <div style={{ fontSize: "2rem", fontWeight: 700, color: "var(--ink)" }}>£400<span style={{ fontSize: "0.9rem", color: "var(--ink-soft)", fontWeight: 400 }}>/mo</span></div>
+              </div>
+
+              <div style={{ marginBottom: "24px" }}>
+                <h4 style={{ fontSize: "0.95rem", fontWeight: 600, margin: "0 0 12px", color: "var(--ink)" }}>What you get</h4>
+                <ul style={{ margin: 0, paddingLeft: 0, listStyle: "none", fontSize: "0.9rem", color: "var(--ink-soft)", lineHeight: "1.8" }}>
+                  <li style={{ marginBottom: "8px" }}>✓ 1 primary + 1 repurposed</li>
+                  <li style={{ marginBottom: "8px" }}>✓ 12 posts/month</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Static + carousels</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Monthly content calendar</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Captions + hashtag research</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Light monthly summary</li>
+                </ul>
+              </div>
+
+              <div style={{ paddingTop: "24px", borderTop: "2px solid var(--paper-warm)", marginTop: "auto" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.85rem", margin: 0 }}>Best for: Businesses that need consistent presence without the time</p>
+              </div>
+            </div>
+
+            {/* MOMENTUM - RECOMMENDED */}
+            <div className="reveal" data-d="2" style={{ background: "#fff", border: "3px solid var(--orange)", borderRadius: "var(--r-lg)", padding: "40px", boxShadow: "var(--shadow-pop)", display: "flex", flexDirection: "column", position: "relative", transform: "scale(1.05)" }}>
+              <div style={{ position: "absolute", top: "-12px", left: "20px", background: "var(--orange)", color: "#fff", padding: "4px 12px", borderRadius: "var(--r-sm)", fontSize: "0.8rem", fontWeight: 700 }}>RECOMMENDED</div>
+
+              <div style={{ marginBottom: "24px" }}>
+                <h3 className="h-md" style={{ margin: "0 0 8px" }}>Momentum</h3>
+                <p style={{ color: "var(--ink-soft)", fontWeight: 400, margin: 0, fontSize: "0.9rem" }}>Growing brand</p>
+              </div>
+
+              <div style={{ marginBottom: "32px", paddingBottom: "32px", borderBottom: "2px solid var(--paper-warm)" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.9rem", fontWeight: 600, margin: "0 0 8px" }}>Monthly retainer</p>
+                <div style={{ fontSize: "2rem", fontWeight: 700, color: "var(--ink)" }}>£800<span style={{ fontSize: "0.9rem", color: "var(--ink-soft)", fontWeight: 400 }}>/mo</span></div>
+              </div>
+
+              <div style={{ marginBottom: "24px" }}>
+                <h4 style={{ fontSize: "0.95rem", fontWeight: 600, margin: "0 0 12px", color: "var(--ink)" }}>What you get</h4>
+                <ul style={{ margin: 0, paddingLeft: 0, listStyle: "none", fontSize: "0.9rem", color: "var(--ink-soft)", lineHeight: "1.8" }}>
+                  <li style={{ marginBottom: "8px" }}>✓ 2–3 platforms</li>
+                  <li style={{ marginBottom: "8px" }}>✓ 16 posts + 4 Reels/month</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Up to 8 stories/month</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Content pillars + planning call</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Engagement strategy</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Comments & DMs (set hours)</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Monthly insights report</li>
+                </ul>
+              </div>
+
+              <div style={{ paddingTop: "24px", borderTop: "2px solid var(--paper-warm)", marginTop: "auto" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.85rem", margin: 0 }}>Best for: Growing brands wanting reach and engagement</p>
+              </div>
+            </div>
+
+            {/* AUTHORITY */}
+            <div className="reveal" data-d="3" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "40px", boxShadow: "var(--shadow-pop)", display: "flex", flexDirection: "column" }}>
+              <div style={{ marginBottom: "24px" }}>
+                <h3 className="h-md" style={{ margin: "0 0 8px" }}>Authority</h3>
+                <p style={{ color: "var(--ink-soft)", fontWeight: 400, margin: 0, fontSize: "0.9rem" }}>Market leader</p>
+              </div>
+
+              <div style={{ marginBottom: "32px", paddingBottom: "32px", borderBottom: "2px solid var(--paper-warm)" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.9rem", fontWeight: 600, margin: "0 0 8px" }}>Monthly retainer</p>
+                <div style={{ fontSize: "2rem", fontWeight: 700, color: "var(--ink)" }}>£1,600<span style={{ fontSize: "0.9rem", color: "var(--ink-soft)", fontWeight: 400 }}>/mo</span></div>
+              </div>
+
+              <div style={{ marginBottom: "24px" }}>
+                <h4 style={{ fontSize: "0.95rem", fontWeight: 600, margin: "0 0 12px", color: "var(--ink)" }}>What you get</h4>
+                <ul style={{ margin: 0, paddingLeft: 0, listStyle: "none", fontSize: "0.9rem", color: "var(--ink-soft)", lineHeight: "1.8" }}>
+                  <li style={{ marginBottom: "8px" }}>✓ 3–4 platforms (+ TikTok/Shorts)</li>
+                  <li style={{ marginBottom: "8px" }}>✓ 24 posts + 8 videos/month</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Ongoing stories</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Full strategy + quarterly planning</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Competitor benchmarking</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Active daily monitoring</li>
+                  <li style={{ marginBottom: "8px" }}>✓ Detailed analytics + priority contact</li>
+                </ul>
+              </div>
+
+              <div style={{ paddingTop: "24px", borderTop: "2px solid var(--paper-warm)", marginTop: "auto" }}>
+                <p style={{ color: "var(--ink-soft)", fontSize: "0.85rem", margin: 0 }}>Best for: Established brands wanting to own their space</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="reveal center" style={{ marginTop: "48px", padding: "36px", background: "#fff", borderRadius: "var(--r-lg)", border: "3px solid var(--ink)" }}>
+            <p style={{ margin: 0, color: "var(--ink-soft)", fontSize: "1rem", lineHeight: "1.7" }}>
+              All packages include original content creation, professional copywriting, scheduling, and monthly reporting. Let's discuss your growth goals.
+            </p>
+            <Link href="/contact" className="btn" data-magnetic style={{ marginTop: "20px" }}>
+              Start growing <span className="arr">→</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <style>{`
         .svc{ display:grid; grid-template-columns:1fr 1fr; gap:54px; align-items:center; }
         @media (max-width:780px){ .svc{ grid-template-columns:1fr; gap: 40px; } }
