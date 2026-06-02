@@ -47,7 +47,6 @@ export default function Footer() {
           <div className="row" style={{ gap: "18px" }}>
             <a href="#">Instagram</a>
             <a href="#">LinkedIn</a>
-            <a href="#">Behance</a>
           </div>
         </div>
       </div>
