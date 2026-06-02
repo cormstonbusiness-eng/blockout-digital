@@ -181,7 +181,6 @@ export default function Services() {
       {/* SERVICE 04 EXHIBITIONS */}
       <section id="exhibitions" className="section-pad bg-warm" style={{ borderBlock: "3px solid var(--ink)" }}>
         <div className="wrap svc" style={{ gridAutoFlow: "dense" }}>
-          <ExhibitionAnimation />
           <div className="reveal" data-d="1">
             <div className="display" style={{ fontSize: "clamp(3rem,7vw,6rem)", color: "var(--orange)", lineHeight: ".8" }}>04</div>
             <h2 className="h-xl" style={{ margin: "10px 0 16px" }}>Exhibition Design</h2>
