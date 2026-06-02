@@ -175,25 +175,22 @@ export default function Services() {
           <div className="reveal">
             <div className="display" style={{ fontSize: "clamp(3rem,7vw,6rem)", color: "var(--orange)", lineHeight: ".8" }}>05</div>
             <h2 className="h-xl" style={{ margin: "10px 0 16px" }}>3D Design</h2>
-            <p className="lead" style={{ marginBottom: "18px" }}>Ideas you can almost touch. Photoreal renders and motion that make products pop.</p>
+            <p className="lead" style={{ marginBottom: "18px" }}>Ideas you can almost touch. Photoreal renders that bring concepts to life.</p>
             <ul style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px 20px" }}>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Product visualisation
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Project visualisation
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>3D animation
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Architectural rendering
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Architectural renders
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Exhibitions rendering
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>CGI for campaigns
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>3D asset development
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>AR & interactive
-              </li>
-              <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Motion graphics
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>CGI for marketing campaigns
               </li>
             </ul>
             <Link href="/contact" className="btn" data-magnetic style={{ marginTop: "26px" }}>
