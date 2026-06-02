@@ -36,7 +36,13 @@ export default function Services() {
                 <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>UX & UI design
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Webflow & custom build
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>HTML & CSS development
+              </li>
+              <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Next.JS & PHP development
+              </li>
+              <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Custom animations
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
                 <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>E-commerce
@@ -45,10 +51,13 @@ export default function Services() {
                 <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>CMS & content
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Performance & SEO
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Performance & SEO optimisations
               </li>
               <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
-                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Care & hosting
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Hosting & maintenance
+              </li>
+              <li style={{ fontFamily: "var(--display)", fontWeight: 600, paddingLeft: "1.4em", position: "relative" }}>
+                <span style={{ color: "var(--orange)", position: "absolute", left: 0 }}>-</span>Complete custom build
               </li>
             </ul>
             <Link href="/contact" className="btn" data-magnetic style={{ marginTop: "26px" }}>
