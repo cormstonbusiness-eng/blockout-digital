@@ -33,7 +33,7 @@ export default function Home() {
             className="sticker sticker--wiggle"
             style={{
               position: "absolute",
-              top: "16%",
+              top: "18%",
               left: "6%",
               background: "var(--orange)",
               color: "#fff",
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <div
             className="sticker"
-            style={{ position: "absolute", top: "60%", left: "9%", rotate: "-8deg" }}
+            style={{ position: "absolute", top: "45%", left: "9%", rotate: "-8deg" }}
           >
             Branding
           </div>
@@ -51,7 +51,7 @@ export default function Home() {
             className="sticker"
             style={{
               position: "absolute",
-              top: "75%",
+              top: "70%",
               left: "5%",
               rotate: "4deg",
               background: "var(--ink)",
