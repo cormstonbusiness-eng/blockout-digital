@@ -36,7 +36,7 @@ export default function Portfolio() {
               Portfolio <span className="text-orange">coming soon.</span>
             </h1>
           </div>
-          <p className="lead reveal" style={{ maxWidth: "60ch", marginBottom: "48px" }}>
+          <p className="lead reveal" style={{ maxWidth: "60ch", marginBottom: "48px", margin: "0 auto 48px" }}>
             We're being intentional about the work we showcase and the relationships we build. Right now, we're focused on forging meaningful partnerships with brands that share our vision for bold, uncompromising design. We're looking for people who are ready to invest in something special – teams that trust the process and understand that great work takes vision, strategy, and commitment.
           </p>
           <div className="reveal" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "48px", boxShadow: "var(--shadow-pop)", maxWidth: "550px", margin: "0 auto" }}>
