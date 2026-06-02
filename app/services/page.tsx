@@ -1,9 +1,4 @@
 import Link from "next/link";
-import WebsitesAnimation from "@/components/animations/WebsitesAnimation";
-import BrandingAnimation from "@/components/animations/BrandingAnimation";
-import SocialMediaAnimation from "@/components/animations/SocialMediaAnimation";
-import ExhibitionAnimation from "@/components/animations/ExhibitionAnimation";
-import ThreeDAnimation from "@/components/animations/ThreeDAnimation";
 
 export default function Services() {
   return (
@@ -69,14 +64,36 @@ export default function Services() {
               Build my site <span className="arr">→</span>
             </Link>
           </div>
-          <WebsitesAnimation />
+          <div className="reveal" data-d="1" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "36px", boxShadow: "var(--shadow-pop)" }}>
+            <h3 className="h-md" style={{ margin: "0 0 20px" }}>What you get</h3>
+            <p style={{ color: "var(--ink-soft)", marginBottom: "16px", lineHeight: "1.7", fontSize: "0.95rem" }}>
+              A fully custom-built website designed to convert. From initial UX/UI design through to launch and beyond, I handle everything – HTML & CSS, Next.JS, PHP, custom animations that delight, and optimizations that make your site lightning fast.
+            </p>
+            <p style={{ color: "var(--ink-soft)", marginBottom: "16px", lineHeight: "1.7", fontSize: "0.95rem" }}>
+              I build complete custom solutions tailored to your goals. E-commerce functionality, content management systems, SEO optimization, and ongoing hosting & maintenance are all included in my process. No cookie-cutter templates. No compromises.
+            </p>
+            <div style={{ paddingTop: "16px", borderTop: "2px solid var(--paper-warm)" }}>
+              <p style={{ color: "var(--orange)", fontWeight: "700", margin: "12px 0 0", fontSize: "0.9rem" }}>Performance • SEO • Custom Build • Hosting Included</p>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* SERVICE 02 BRANDING */}
       <section id="branding" className="section-pad bg-warm" style={{ borderBlock: "3px solid var(--ink)" }}>
         <div className="wrap svc" style={{ gridAutoFlow: "dense" }}>
-          <BrandingAnimation />
+          <div className="reveal" data-d="1" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "36px", boxShadow: "var(--shadow-pop)", gridColumn: "2" }}>
+            <h3 className="h-md" style={{ margin: "0 0 20px" }}>What you get</h3>
+            <p style={{ color: "var(--ink-soft)", marginBottom: "16px", lineHeight: "1.7", fontSize: "0.95rem" }}>
+              A complete brand identity system built from strategy to execution. I start with understanding your vision, values, and market position – then craft a distinctive logo, refined color palette, typography system, and comprehensive brand guidelines that ensure consistency everywhere your brand appears.
+            </p>
+            <p style={{ color: "var(--ink-soft)", marginBottom: "16px", lineHeight: "1.7", fontSize: "0.95rem" }}>
+              Beyond the logo, I develop your full brand ecosystem: guidelines for usage, website branding standards, social media branding, and collateral assets. Everything works together to create a cohesive brand experience that people remember and recognize instantly.
+            </p>
+            <div style={{ paddingTop: "16px", borderTop: "2px solid var(--paper-warm)" }}>
+              <p style={{ color: "var(--orange)", fontWeight: "700", margin: "12px 0 0", fontSize: "0.9rem" }}>Logo • Guidelines • Identity System • Social Branding</p>
+            </div>
+          </div>
           <div className="reveal" data-d="1">
             <div className="display" style={{ fontSize: "clamp(3rem,7vw,6rem)", color: "var(--orange)", lineHeight: ".8" }}>02</div>
             <h2 className="h-xl" style={{ margin: "10px 0 16px" }}>Branding</h2>
@@ -133,7 +150,18 @@ export default function Services() {
               Grow my audience <span className="arr">→</span>
             </Link>
           </div>
-          <SocialMediaAnimation />
+          <div className="reveal" data-d="1" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "36px", boxShadow: "var(--shadow-pop)" }}>
+            <h3 className="h-md" style={{ margin: "0 0 20px" }}>What you get</h3>
+            <p style={{ color: "var(--ink-soft)", marginBottom: "16px", lineHeight: "1.7", fontSize: "0.95rem" }}>
+              Strategic content that builds your audience and drives real engagement. I develop a tailored content strategy for your platforms, then handle everything from content creation and design through to posting and community management. Your content tells your story – consistently, authentically, and strategically.
+            </p>
+            <p style={{ color: "var(--ink-soft)", marginBottom: "16px", lineHeight: "1.7", fontSize: "0.95rem" }}>
+              From eye-catching graphics and templates to community engagement and growth planning, I manage the full content lifecycle. Whether you need regular posting schedules, campaign launches, or audience growth strategies, I create content that stops the scroll and builds genuine connections with your audience.
+            </p>
+            <div style={{ paddingTop: "16px", borderTop: "2px solid var(--paper-warm)" }}>
+              <p style={{ color: "var(--orange)", fontWeight: "700", margin: "12px 0 0", fontSize: "0.9rem" }}>Strategy • Content Creation • Graphics • Community Growth</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -166,6 +194,18 @@ export default function Services() {
               Design my stand <span className="arr">→</span>
             </Link>
           </div>
+          <div className="reveal" data-d="1" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "36px", boxShadow: "var(--shadow-pop)", gridColumn: "2" }}>
+            <h3 className="h-md" style={{ margin: "0 0 20px" }}>What you get</h3>
+            <p style={{ color: "var(--ink-soft)", marginBottom: "16px", lineHeight: "1.7", fontSize: "0.95rem" }}>
+              Exhibition stands that stop people in their tracks. From initial concept design and photorealistic 3D rendering through to print-ready artwork and on-site support, I manage every aspect of your exhibition presence. Every detail is designed to maximize impact and engagement.
+            </p>
+            <p style={{ color: "var(--ink-soft)", marginBottom: "16px", lineHeight: "1.7", fontSize: "0.95rem" }}>
+              I handle graphics manipulation and production-ready artwork, electrical drawings for technical requirements, and construction drawings specifically for the beMatrix modular system. With on-site design support, I ensure your stand executes flawlessly and achieves your goals in real-time.
+            </p>
+            <div style={{ paddingTop: "16px", borderTop: "2px solid var(--paper-warm)" }}>
+              <p style={{ color: "var(--orange)", fontWeight: "700", margin: "12px 0 0", fontSize: "0.9rem" }}>Concept • Rendering • Print Artwork • Electrical & Construction Drawings</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -197,7 +237,18 @@ export default function Services() {
               Render my idea <span className="arr">→</span>
             </Link>
           </div>
-          <ThreeDAnimation />
+          <div className="reveal" data-d="1" style={{ background: "#fff", border: "3px solid var(--ink)", borderRadius: "var(--r-lg)", padding: "36px", boxShadow: "var(--shadow-pop)" }}>
+            <h3 className="h-md" style={{ margin: "0 0 20px" }}>What you get</h3>
+            <p style={{ color: "var(--ink-soft)", marginBottom: "16px", lineHeight: "1.7", fontSize: "0.95rem" }}>
+              Photoreal 3D visualizations that bring your ideas to life before they're built. From architectural renderings and project visualizations to exhibition display renderings and complete 3D asset development, I create stunning visuals that communicate your vision with impact and clarity.
+            </p>
+            <p style={{ color: "var(--ink-soft)", marginBottom: "16px", lineHeight: "1.7", fontSize: "0.95rem" }}>
+              Whether you need renders for presentations, marketing campaigns, or visualization purposes, I deliver high-quality CGI that impresses stakeholders and helps you make confident decisions. Each render is meticulously crafted with attention to lighting, materials, and detail – bringing your concepts to life in stunning photorealistic quality.
+            </p>
+            <div style={{ paddingTop: "16px", borderTop: "2px solid var(--paper-warm)" }}>
+              <p style={{ color: "var(--orange)", fontWeight: "700", margin: "12px 0 0", fontSize: "0.9rem" }}>Photorealistic • Asset Development • Architectural • Marketing CGI</p>
+            </div>
+          </div>
         </div>
       </section>
 
