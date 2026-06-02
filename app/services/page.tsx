@@ -1,4 +1,9 @@
 import Link from "next/link";
+import WebsitesAnimation from "@/components/animations/WebsitesAnimation";
+import BrandingAnimation from "@/components/animations/BrandingAnimation";
+import SocialMediaAnimation from "@/components/animations/SocialMediaAnimation";
+import ExhibitionAnimation from "@/components/animations/ExhibitionAnimation";
+import ThreeDAnimation from "@/components/animations/ThreeDAnimation";
 
 export default function Services() {
   return (
@@ -64,18 +69,14 @@ export default function Services() {
               Build my site <span className="arr">→</span>
             </Link>
           </div>
-          <div className="reveal" data-d="1" style={{ aspectRatio: "1/1", borderRadius: "var(--r-xl)", overflow: "hidden" }}>
-            <img src="/website-mockup.png" alt="Website mockup" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "var(--r-xl)" }} />
-          </div>
+          <WebsitesAnimation />
         </div>
       </section>
 
       {/* SERVICE 02 BRANDING */}
       <section id="branding" className="section-pad bg-warm" style={{ borderBlock: "3px solid var(--ink)" }}>
         <div className="wrap svc" style={{ gridAutoFlow: "dense" }}>
-          <div className="placeholder reveal" style={{ aspectRatio: "1/1", borderRadius: "var(--r-xl)", background: "repeating-linear-gradient(45deg,#16110d 0 14px,#221a14 14px 28px)", gridColumn: "2" }}>
-            <span>Brand boards · 1400×1400</span>
-          </div>
+          <BrandingAnimation />
           <div className="reveal" data-d="1">
             <div className="display" style={{ fontSize: "clamp(3rem,7vw,6rem)", color: "var(--orange)", lineHeight: ".8" }}>02</div>
             <h2 className="h-xl" style={{ margin: "10px 0 16px" }}>Branding</h2>
@@ -132,18 +133,14 @@ export default function Services() {
               Grow my audience <span className="arr">→</span>
             </Link>
           </div>
-          <div className="placeholder reveal" data-d="1" style={{ aspectRatio: "1/1", borderRadius: "var(--r-xl)" }}>
-            <span>Campaign visual · 1400×1400</span>
-          </div>
+          <SocialMediaAnimation />
         </div>
       </section>
 
       {/* SERVICE 04 EXHIBITIONS */}
       <section id="exhibitions" className="section-pad bg-warm" style={{ borderBlock: "3px solid var(--ink)" }}>
         <div className="wrap svc" style={{ gridAutoFlow: "dense" }}>
-          <div className="placeholder reveal" style={{ aspectRatio: "1/1", borderRadius: "var(--r-xl)", background: "repeating-linear-gradient(45deg,#16110d 0 14px,#221a14 14px 28px)", gridColumn: "2" }}>
-            <span>Stand render · 1400×1400</span>
-          </div>
+          <ExhibitionAnimation />
           <div className="reveal" data-d="1">
             <div className="display" style={{ fontSize: "clamp(3rem,7vw,6rem)", color: "var(--orange)", lineHeight: ".8" }}>04</div>
             <h2 className="h-xl" style={{ margin: "10px 0 16px" }}>Exhibition Design</h2>
@@ -200,9 +197,7 @@ export default function Services() {
               Render my idea <span className="arr">→</span>
             </Link>
           </div>
-          <div className="placeholder reveal" data-d="1" style={{ aspectRatio: "1/1", borderRadius: "var(--r-xl)" }}>
-            <span>3D render · 1400×1400</span>
-          </div>
+          <ThreeDAnimation />
         </div>
       </section>
 
