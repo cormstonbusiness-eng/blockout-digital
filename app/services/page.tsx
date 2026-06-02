@@ -326,7 +326,8 @@ export default function Services() {
 
               <div style={{ marginBottom: "32px" }}>
                 <p style={{ color: "var(--ink-soft)", fontSize: "0.9rem", fontWeight: 600, margin: "0 0 12px" }}>Monthly hosting & maintenance</p>
-                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--ink)" }}>£25<span style={{ fontSize: "0.9rem", color: "var(--ink-soft)", fontWeight: 400 }}>/mo</span></div>
+                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--ink)" }}>£150<span style={{ fontSize: "0.9rem", color: "var(--ink-soft)", fontWeight: 400 }}>/mo</span></div>
+                <p style={{ color: "var(--orange)", fontSize: "0.85rem", margin: "8px 0 0", fontWeight: 600 }}>£135/mo with 3-month lock-in (save 10%)</p>
               </div>
 
               <div style={{ marginBottom: "24px" }}>
@@ -367,7 +368,8 @@ export default function Services() {
 
               <div style={{ marginBottom: "32px" }}>
                 <p style={{ color: "var(--ink-soft)", fontSize: "0.9rem", fontWeight: 600, margin: "0 0 12px" }}>Monthly hosting & maintenance</p>
-                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--ink)" }}>£45<span style={{ fontSize: "0.9rem", color: "var(--ink-soft)", fontWeight: 400 }}>/mo</span></div>
+                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--ink)" }}>£250<span style={{ fontSize: "0.9rem", color: "var(--ink-soft)", fontWeight: 400 }}>/mo</span></div>
+                <p style={{ color: "var(--orange)", fontSize: "0.85rem", margin: "8px 0 0", fontWeight: 600 }}>£225/mo with 3-month lock-in (save 10%)</p>
               </div>
 
               <div style={{ marginBottom: "24px" }}>
@@ -407,7 +409,8 @@ export default function Services() {
 
               <div style={{ marginBottom: "32px" }}>
                 <p style={{ color: "var(--ink-soft)", fontSize: "0.9rem", fontWeight: 600, margin: "0 0 12px" }}>Monthly hosting & maintenance</p>
-                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--ink)" }}>£90<span style={{ fontSize: "0.9rem", color: "var(--ink-soft)", fontWeight: 400 }}>/mo</span></div>
+                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--ink)" }}>from £500<span style={{ fontSize: "0.9rem", color: "var(--ink-soft)", fontWeight: 400 }}>/mo</span></div>
+                <p style={{ color: "var(--orange)", fontSize: "0.85rem", margin: "8px 0 0", fontWeight: 600 }}>from £450/mo with 3-month lock-in (save 10%)</p>
               </div>
 
               <div style={{ marginBottom: "24px" }}>
