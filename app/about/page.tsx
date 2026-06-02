@@ -1,4 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Craig Ormston — Blockout Digital",
+  description: "Meet Craig Ormston, founder of Blockout Digital. 11+ years of experience in design, architecture, exhibition design, and web development.",
+  keywords: ["Craig Ormston", "designer", "developer", "about"],
+  openGraph: {
+    title: "About Craig Ormston — Blockout Digital",
+    description: "The story behind Blockout Digital. Bold design, strategic thinking, and uncompromising standards.",
+    url: "https://blockoutdigital.com/about",
+    type: "website",
+  },
+};
 
 export default function About() {
   return (
@@ -22,7 +36,7 @@ export default function About() {
           </div>
 
           <div className="reveal" data-d="1">
-            <img src="/craig-portrait.jpg" alt="Craig Ormston" style={{ aspectRatio: "1/1", borderRadius: "var(--r-lg)", marginBottom: "20px", width: "100%", objectFit: "cover", border: "3px solid var(--ink)" }} />
+            <Image src="/craig-portrait.jpg" alt="Craig Ormston" width={400} height={400} style={{ aspectRatio: "1/1", borderRadius: "var(--r-lg)", marginBottom: "20px", width: "100%", height: "auto", objectFit: "cover", border: "3px solid var(--ink)" }} />
             <h3 className="h-md">Craig Ormston</h3>
             <p style={{ color: "var(--orange)", fontWeight: 700, marginBottom: "12px" }}>Founder, Designer & Developer</p>
             <p style={{ color: "var(--ink-soft)", fontSize: "0.95rem", lineHeight: "1.6" }}>

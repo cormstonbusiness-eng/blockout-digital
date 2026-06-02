@@ -1,4 +1,17 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Portfolio — Blockout Digital Work & Case Studies",
+  description: "Bold, strategic design work across websites, branding, exhibitions, and 3D visualization. Coming soon with detailed case studies.",
+  keywords: ["portfolio", "case studies", "design work", "examples"],
+  openGraph: {
+    title: "Portfolio — Blockout Digital",
+    description: "Bold design portfolio. Website design, branding, exhibitions, and 3D visualization.",
+    url: "https://blockoutdigital.com/portfolio",
+    type: "website",
+  },
+};
 
 export default function Portfolio() {
   return (

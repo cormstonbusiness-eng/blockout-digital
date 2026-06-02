@@ -25,7 +25,7 @@ export default function Navbar() {
       <nav className="nav">
         <div className="nav__inner">
           <Link href="/" className="nav__logo" aria-label="Blockout Digital home">
-            <img src="/logo.webp" alt="Blockout Digital" />
+            <Image src="/logo.webp" alt="Blockout Digital" width={120} height={40} priority />
           </Link>
           <div className="nav__links">
             {navLinks.map((link) => (

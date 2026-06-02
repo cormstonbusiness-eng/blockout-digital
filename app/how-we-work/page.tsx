@@ -1,4 +1,17 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "How I Work — Blockout Digital's Design Process",
+  description: "Top-tier design without agency overhead. Strategic thinking combined with streamlined processes for premium results.",
+  keywords: ["design process", "how we work", "strategy", "design thinking"],
+  openGraph: {
+    title: "How I Work — Blockout Digital",
+    description: "The process behind bold design. Strategy first, fluff never.",
+    url: "https://blockoutdigital.com/how-we-work",
+    type: "website",
+  },
+};
 
 export default function HowWeWork() {
   return (

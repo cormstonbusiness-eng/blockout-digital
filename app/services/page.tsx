@@ -1,4 +1,17 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Services — Custom Web Design, Branding & 3D",
+  description: "Custom website development, brand identity design, social media marketing, exhibition design, and 3D visualization services.",
+  keywords: ["web design", "branding", "3D design", "social media", "exhibition", "design services"],
+  openGraph: {
+    title: "Services — Blockout Digital",
+    description: "Five services from one designer. Websites, branding, social media, exhibitions, and 3D visualization.",
+    url: "https://blockoutdigital.com/services",
+    type: "website",
+  },
+};
 
 export default function Services() {
   return (

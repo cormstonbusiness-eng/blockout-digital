@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -17,7 +18,7 @@ export default function Footer() {
         </div>
         <div className="footer__top">
           <div className="footer__brand">
-            <img src="/logo-white.png" alt="Blockout Digital" />
+            <Image src="/logo-white.png" alt="Blockout Digital" width={120} height={40} />
             <p>Every great project starts with a Blockout.</p>
           </div>
           <div className="footer__col">

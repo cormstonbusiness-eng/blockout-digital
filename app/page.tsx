@@ -1,4 +1,23 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blockout Digital — Bold Design Studio",
+  description: "One-man design studio specializing in custom websites, brand identity, social media marketing, exhibition design, and 3D visualization.",
+  keywords: ["web design", "branding", "3D design", "digital marketing", "exhibition design", "Nuneaton designer"],
+  openGraph: {
+    title: "Blockout Digital — Bold Design Studio",
+    description: "Bold design without the agency nonsense. Custom websites, branding, 3D visualization, and more.",
+    url: "https://blockoutdigital.com",
+    type: "website",
+    images: [{
+      url: "https://blockoutdigital.com/opengraph-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Blockout Digital",
+    }],
+  },
+};
 import TrustpilotReviews from "@/components/TrustpilotReviews";
 
 export default function Home() {
