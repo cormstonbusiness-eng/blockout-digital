@@ -64,8 +64,8 @@ export default function Services() {
               Build my site <span className="arr">→</span>
             </Link>
           </div>
-          <div className="placeholder reveal" data-d="1" style={{ aspectRatio: "1/1", borderRadius: "var(--r-xl)" }}>
-            <span>Web mockup · 1400×1400</span>
+          <div className="reveal" data-d="1" style={{ aspectRatio: "1/1", borderRadius: "var(--r-xl)", overflow: "hidden" }}>
+            <img src="/website-mockup.png" alt="Website mockup" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "var(--r-xl)" }} />
           </div>
         </div>
       </section>
