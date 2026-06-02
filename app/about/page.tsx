@@ -151,9 +151,9 @@ export default function About() {
       {/* COMING HOME */}
       <section className="section-pad" style={{ background: "var(--paper-warm)", borderTop: "3px solid var(--ink)" }}>
         <div className="wrap center">
-          <div className="reveal">
+          <div className="reveal" style={{ textAlign: "center" }}>
             <span className="eyebrow" style={{ justifyContent: "center" }}>Coming home</span>
-            <h2 className="h-lg" style={{ marginTop: "16px", marginBottom: "28px", maxWidth: "20ch" }}>
+            <h2 className="h-lg" style={{ marginTop: "16px", marginBottom: "28px", maxWidth: "20ch", marginLeft: "auto", marginRight: "auto" }}>
               Blockout returns to <span className="text-orange">Newcastle.</span>
             </h2>
             <p className="lead" style={{ maxWidth: "65ch", margin: "0 auto", color: "var(--ink-soft)" }}>
