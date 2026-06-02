@@ -232,9 +232,10 @@ export default function Contact() {
                     <label>Ballpark budget</label>
                     <div className="chips">
                       {[
-                        { label: "Under £5k", val: "<5k" },
-                        { label: "£5k–15k", val: "5-15k" },
-                        { label: "£15k–40k", val: "15-40k" },
+                        { label: "£0–£1k", val: "0-1k" },
+                        { label: "£1k–£5k", val: "1-5k" },
+                        { label: "£5k–£15k", val: "5-15k" },
+                        { label: "£15k–£40k", val: "15-40k" },
                         { label: "£40k+", val: "40k+" },
                       ].map((option) => (
                         <button
